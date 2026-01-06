@@ -1,6 +1,7 @@
 import csv
 import json
 import requests
+from datetime import datetime as dt
 from tqdm import tqdm
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -114,6 +115,16 @@ def get_tracks_from_author(author_id: int):
     write_csv(f"{DATA_FILE_PATH}Maps.csv", all_tracks, FIELDS)
 
 # Updater Functions
+def sort_recs(recs: list, player_id_key: str):
+    sorted_recs = sorted(recs, key=lambda x: (x['Time'], dt.strptime(x['RecordDate'], "%Y-%m-%d %H:%M:%S")))
+    sorted_and_unique_recs = []
+    player_ids = []
+    for rec in sorted_recs:
+        if rec[player_id_key] not in player_ids:
+            sorted_and_unique_recs.append(rec)
+            player_ids.append(rec[player_id_key])
+        
+    return sorted_and_unique_recs
 
 def update_tmx_recs(tracks_dict: dict):
     replays = []
@@ -127,7 +138,7 @@ def update_tmx_recs(tracks_dict: dict):
             replays = []
             for replay in content_dict:
                 replays.append(classes.Record({"PlayerId": str(replay['User']['UserId']), "Time": replay['ReplayTime'], "RecordDate": replay['ReplayAt'].split(".")[0]}).properties())
-            replay_dict[id] = replays
+            replay_dict[id] = sort_recs(replays, "PlayerId")
         else:
             print("ERROR: CONNECTION FAILED")
             return False
@@ -156,30 +167,32 @@ def update_dedi_recs(tracks_dict: dict):
             return False
         except:
             pass
-        replay_dict[id] = replays
-        driver.quit()
+        replay_dict[id] = sort_recs(replays, "PlayerLogin")
+    driver.quit()
     return replay_dict
         
     
-def update_recs():
+def update_recs(update_tmx: bool = True, update_dedi: bool = True):
     print("Updating Records:")
     tracks = load_csv(f"{DATA_FILE_PATH}Maps.csv")
     tracks_dict = {row[FIELDS[0]]: row for row in tracks}
 
-    print("Updating TMX Records:")
-    tmx_dict = update_tmx_recs(tracks_dict)
+    if update_tmx:
+        print("Updating TMX Records:")
+        tmx_dict = update_tmx_recs(tracks_dict)
 
-    if not tmx_dict:
-        print("ERROR: TMX UPDATE FAILURE.")
-    else:
-        write_json(f"{DATA_FILE_PATH}tmx_replays.json", tmx_dict)
+        if not tmx_dict:
+            print("ERROR: TMX UPDATE FAILURE.")
+        else:
+            write_json(f"{DATA_FILE_PATH}tmx_replays.json", tmx_dict)
     
-    print("Updating Dedi Records:")
-    dedi_dict = update_dedi_recs(tracks_dict)
-    if not dedi_dict:
-        print("ERROR: DEDI UPDATE FAILURE.")
-    else:
-        write_json(f"{DATA_FILE_PATH}dedi_replays.json", dedi_dict)
+    if update_dedi:
+        print("Updating Dedi Records:")
+        dedi_dict = update_dedi_recs(tracks_dict)
+        if not dedi_dict:
+            print("ERROR: DEDI UPDATE FAILURE.")
+        else:
+            write_json(f"{DATA_FILE_PATH}dedi_replays.json", dedi_dict)
 
     return True
 

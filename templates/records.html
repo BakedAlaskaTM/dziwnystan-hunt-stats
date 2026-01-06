@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ track_name }}</title>
+</head>
+<body>
+    <a href="/">Home</a>
+    <h1>{{ track_name }}</h1>
+    <h2>TMX Leaderboard</h2>
+    <table>
+        {% for record in tmx_records %}
+        <tr>
+            <td><a href="/player/tmx/{{ record.PlayerId }}">{{ record.PlayerId }}</a></td>
+            <td>{{ record.Time / 1000 }}</td>
+            <td>{{ record.RecordDate }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <h2>Dedi Leaderboard</h2>
+    <table>
+        {% for record in dedi_records %}
+        <tr>
+            <td><a href="/player/dedi/{{ record.PlayerLogin }}">{{ record.PlayerLogin }}</a></td>
+            <td>{{ record.Time / 1000 }}</td>
+            <td>{{ record.RecordDate }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

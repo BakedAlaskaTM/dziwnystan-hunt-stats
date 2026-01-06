@@ -750,22 +750,16 @@
     ],
     "8781032": [
         {
-            "PlayerLogin": "miszko333",
-            "PlayerId": null,
-            "Time": 115039,
-            "RecordDate": "2024-04-03 15:25:40"
-        },
-        {
             "PlayerLogin": "baked_alaska",
             "PlayerId": null,
             "Time": 106530,
             "RecordDate": "2025-04-02 23:58:56"
         },
         {
-            "PlayerLogin": "ayeewake",
+            "PlayerLogin": "miszko333",
             "PlayerId": null,
-            "Time": 152390,
-            "RecordDate": "2025-02-17 14:01:14"
+            "Time": 115039,
+            "RecordDate": "2024-04-03 15:25:40"
         },
         {
             "PlayerLogin": "bobjegraditelj",
@@ -784,6 +778,12 @@
             "PlayerId": null,
             "Time": 139250,
             "RecordDate": "2024-04-03 15:25:40"
+        },
+        {
+            "PlayerLogin": "ayeewake",
+            "PlayerId": null,
+            "Time": 152390,
+            "RecordDate": "2025-02-17 14:01:14"
         },
         {
             "PlayerLogin": "hoboki",
@@ -924,10 +924,22 @@
             "RecordDate": "2025-02-03 04:30:44"
         },
         {
+            "PlayerLogin": "missha_leyquinn",
+            "PlayerId": null,
+            "Time": 11470,
+            "RecordDate": "2025-10-06 13:40:02"
+        },
+        {
             "PlayerLogin": "philippkienitz",
             "PlayerId": null,
             "Time": 11500,
             "RecordDate": "2024-01-20 15:46:50"
+        },
+        {
+            "PlayerLogin": "bzh_b_raid_n_gf",
+            "PlayerId": null,
+            "Time": 11510,
+            "RecordDate": "2025-10-06 13:40:02"
         },
         {
             "PlayerLogin": "exix77",
@@ -2222,8 +2234,8 @@
         {
             "PlayerLogin": "maelyne1631",
             "PlayerId": null,
-            "Time": 11580,
-            "RecordDate": "2023-05-21 07:33:31"
+            "Time": 11290,
+            "RecordDate": "2025-10-05 11:59:35"
         },
         {
             "PlayerLogin": "moncef_mot",
@@ -3941,26 +3953,8 @@
         {
             "PlayerLogin": "aleckslol",
             "PlayerId": null,
-            "Time": 13310,
-            "RecordDate": "2023-04-14 07:29:22"
-        },
-        {
-            "PlayerLogin": "aleckslol",
-            "PlayerId": null,
             "Time": 13110,
             "RecordDate": "2022-10-29 08:29:25"
-        },
-        {
-            "PlayerLogin": "literallypancake",
-            "PlayerId": null,
-            "Time": 13870,
-            "RecordDate": "2023-04-14 07:29:22"
-        },
-        {
-            "PlayerLogin": "jfnoahtm",
-            "PlayerId": null,
-            "Time": 32060,
-            "RecordDate": "2023-04-14 07:29:22"
         },
         {
             "PlayerLogin": "pseudodragon",
@@ -19242,22 +19236,10 @@
     "10327790": [],
     "10333002": [
         {
-            "PlayerLogin": "randomvidzz321",
-            "PlayerId": null,
-            "Time": 28410,
-            "RecordDate": "2025-01-17 18:40:58"
-        },
-        {
             "PlayerLogin": "zerainy",
             "PlayerId": null,
             "Time": 18690,
             "RecordDate": "2023-05-25 19:49:44"
-        },
-        {
-            "PlayerLogin": "dzamal1s",
-            "PlayerId": null,
-            "Time": 29840,
-            "RecordDate": "2025-01-17 18:40:58"
         },
         {
             "PlayerLogin": "w1ndspe3dyy",
@@ -19272,22 +19254,10 @@
             "RecordDate": "2025-09-12 18:42:33"
         },
         {
-            "PlayerLogin": "scoop_tm",
-            "PlayerId": null,
-            "Time": 29860,
-            "RecordDate": "2025-01-17 18:40:58"
-        },
-        {
             "PlayerLogin": "king_ate",
             "PlayerId": null,
             "Time": 21610,
             "RecordDate": "2025-08-28 19:26:02"
-        },
-        {
-            "PlayerLogin": "arcticviking96",
-            "PlayerId": null,
-            "Time": 31450,
-            "RecordDate": "2025-01-17 18:40:58"
         },
         {
             "PlayerLogin": "wildmagnusdk",
@@ -19296,34 +19266,16 @@
             "RecordDate": "2025-05-18 14:30:23"
         },
         {
-            "PlayerLogin": "locklurz",
-            "PlayerId": null,
-            "Time": 33820,
-            "RecordDate": "2025-01-17 18:40:58"
-        },
-        {
             "PlayerLogin": "corey_123344",
             "PlayerId": null,
             "Time": 22210,
             "RecordDate": "2025-06-08 05:20:15"
         },
         {
-            "PlayerLogin": "specul4rr",
-            "PlayerId": null,
-            "Time": 39320,
-            "RecordDate": "2025-01-17 18:40:58"
-        },
-        {
             "PlayerLogin": "lemon_playz",
             "PlayerId": null,
             "Time": 22840,
             "RecordDate": "2025-07-19 23:44:40"
-        },
-        {
-            "PlayerLogin": "dadvik",
-            "PlayerId": null,
-            "Time": 47420,
-            "RecordDate": "2025-01-17 18:40:58"
         },
         {
             "PlayerLogin": "randomvidzz321",
@@ -19410,10 +19362,28 @@
             "RecordDate": "2023-03-21 13:25:52"
         },
         {
+            "PlayerLogin": "dzamal1s",
+            "PlayerId": null,
+            "Time": 29840,
+            "RecordDate": "2025-01-17 18:40:58"
+        },
+        {
+            "PlayerLogin": "scoop_tm",
+            "PlayerId": null,
+            "Time": 29860,
+            "RecordDate": "2025-01-17 18:40:58"
+        },
+        {
             "PlayerLogin": "jakub33333333",
             "PlayerId": null,
             "Time": 29990,
             "RecordDate": "2023-07-02 03:22:14"
+        },
+        {
+            "PlayerLogin": "arcticviking96",
+            "PlayerId": null,
+            "Time": 31450,
+            "RecordDate": "2025-01-17 18:40:58"
         },
         {
             "PlayerLogin": "drak67",
@@ -19426,6 +19396,12 @@
             "PlayerId": null,
             "Time": 32090,
             "RecordDate": "2023-06-21 17:16:31"
+        },
+        {
+            "PlayerLogin": "locklurz",
+            "PlayerId": null,
+            "Time": 33820,
+            "RecordDate": "2025-01-17 18:40:58"
         },
         {
             "PlayerLogin": "skibidiohiosigma",
@@ -19450,6 +19426,18 @@
             "PlayerId": null,
             "Time": 38610,
             "RecordDate": "2024-08-04 19:04:39"
+        },
+        {
+            "PlayerLogin": "specul4rr",
+            "PlayerId": null,
+            "Time": 39320,
+            "RecordDate": "2025-01-17 18:40:58"
+        },
+        {
+            "PlayerLogin": "dadvik",
+            "PlayerId": null,
+            "Time": 47420,
+            "RecordDate": "2025-01-17 18:40:58"
         },
         {
             "PlayerLogin": "thenlo_tm",
@@ -20471,22 +20459,10 @@
             "RecordDate": "2025-01-27 21:47:38"
         },
         {
-            "PlayerLogin": "samurai_master123",
-            "PlayerId": null,
-            "Time": 42760,
-            "RecordDate": "2024-01-15 12:38:03"
-        },
-        {
             "PlayerLogin": "exix77",
             "PlayerId": null,
             "Time": 32549,
             "RecordDate": "2025-01-27 21:47:38"
-        },
-        {
-            "PlayerLogin": "dzamal1s",
-            "PlayerId": null,
-            "Time": 52400,
-            "RecordDate": "2024-01-15 12:38:03"
         },
         {
             "PlayerLogin": "samurai_master123",
@@ -20495,9 +20471,9 @@
             "RecordDate": "2024-01-01 14:25:28"
         },
         {
-            "PlayerLogin": "franzelventm_2",
+            "PlayerLogin": "dzamal1s",
             "PlayerId": null,
-            "Time": 53000,
+            "Time": 52400,
             "RecordDate": "2024-01-15 12:38:03"
         },
         {
@@ -20505,6 +20481,12 @@
             "PlayerId": null,
             "Time": 52710,
             "RecordDate": "2023-06-17 19:50:03"
+        },
+        {
+            "PlayerLogin": "franzelventm_2",
+            "PlayerId": null,
+            "Time": 53000,
+            "RecordDate": "2024-01-15 12:38:03"
         },
         {
             "PlayerLogin": "baked_alaska",
@@ -35136,22 +35118,10 @@
             "RecordDate": "2025-01-30 10:38:48"
         },
         {
-            "PlayerLogin": "fwo_axell",
-            "PlayerId": null,
-            "Time": 24830,
-            "RecordDate": "2023-10-03 22:34:27"
-        },
-        {
             "PlayerLogin": "aleckslol",
             "PlayerId": null,
             "Time": 17350,
             "RecordDate": "2024-03-22 03:17:11"
-        },
-        {
-            "PlayerLogin": "e-thug",
-            "PlayerId": null,
-            "Time": 26210,
-            "RecordDate": "2023-10-03 22:34:27"
         },
         {
             "PlayerLogin": "mc_maddin",
@@ -35188,6 +35158,12 @@
             "PlayerId": null,
             "Time": 26080,
             "RecordDate": "2023-06-27 13:58:46"
+        },
+        {
+            "PlayerLogin": "e-thug",
+            "PlayerId": null,
+            "Time": 26210,
+            "RecordDate": "2023-10-03 22:34:27"
         },
         {
             "PlayerLogin": "dziwnystan",
@@ -35815,34 +35791,16 @@
     "10612479": [],
     "10613997": [
         {
-            "PlayerLogin": "milmas",
-            "PlayerId": null,
-            "Time": 10180,
-            "RecordDate": "2023-07-04 18:50:16"
-        },
-        {
             "PlayerLogin": "szozs",
             "PlayerId": null,
             "Time": 9950,
             "RecordDate": "2023-07-06 02:26:07"
         },
         {
-            "PlayerLogin": "astrobound",
-            "PlayerId": null,
-            "Time": 10260,
-            "RecordDate": "2023-07-04 18:50:16"
-        },
-        {
             "PlayerLogin": "nellike",
             "PlayerId": null,
             "Time": 9970,
             "RecordDate": "2023-11-30 22:39:56"
-        },
-        {
-            "PlayerLogin": "iveco93",
-            "PlayerId": null,
-            "Time": 10310,
-            "RecordDate": "2023-07-04 18:50:16"
         },
         {
             "PlayerLogin": "w1ndspe3dyy",
@@ -35857,18 +35815,6 @@
             "RecordDate": "2023-12-18 09:08:05"
         },
         {
-            "PlayerLogin": "abus001",
-            "PlayerId": null,
-            "Time": 10320,
-            "RecordDate": "2023-07-04 18:50:16"
-        },
-        {
-            "PlayerLogin": "grepedon",
-            "PlayerId": null,
-            "Time": 10460,
-            "RecordDate": "2023-07-04 18:50:16"
-        },
-        {
             "PlayerLogin": "specul4rr",
             "PlayerId": null,
             "Time": 9990,
@@ -35881,22 +35827,10 @@
             "RecordDate": "2025-02-18 06:45:56"
         },
         {
-            "PlayerLogin": "klarr",
-            "PlayerId": null,
-            "Time": 10730,
-            "RecordDate": "2023-07-04 18:50:16"
-        },
-        {
             "PlayerLogin": "domestm",
             "PlayerId": null,
             "Time": 10010,
             "RecordDate": "2023-07-06 02:26:07"
-        },
-        {
-            "PlayerLogin": "herobrine1337",
-            "PlayerId": null,
-            "Time": 10790,
-            "RecordDate": "2023-07-04 18:50:16"
         },
         {
             "PlayerLogin": "dziwnystan",
@@ -35905,40 +35839,16 @@
             "RecordDate": "2023-07-05 16:51:43"
         },
         {
-            "PlayerLogin": "joaobudgi",
-            "PlayerId": null,
-            "Time": 10940,
-            "RecordDate": "2023-07-04 18:50:16"
-        },
-        {
             "PlayerLogin": "violynos",
             "PlayerId": null,
             "Time": 10020,
             "RecordDate": "2025-06-18 14:02:33"
         },
         {
-            "PlayerLogin": "narcorek",
-            "PlayerId": null,
-            "Time": 11160,
-            "RecordDate": "2023-07-04 18:50:16"
-        },
-        {
-            "PlayerLogin": "ixel",
-            "PlayerId": null,
-            "Time": 11290,
-            "RecordDate": "2023-07-04 18:50:16"
-        },
-        {
             "PlayerLogin": "_lucida",
             "PlayerId": null,
             "Time": 10020,
             "RecordDate": "2025-06-18 16:02:47"
-        },
-        {
-            "PlayerLogin": "shedox",
-            "PlayerId": null,
-            "Time": 15290,
-            "RecordDate": "2023-07-04 18:50:16"
         },
         {
             "PlayerLogin": "jakub33333333",
@@ -36025,6 +35935,12 @@
             "RecordDate": "2025-08-31 14:17:54"
         },
         {
+            "PlayerLogin": "milmas",
+            "PlayerId": null,
+            "Time": 10180,
+            "RecordDate": "2023-07-04 18:50:16"
+        },
+        {
             "PlayerLogin": "moncef_mot",
             "PlayerId": null,
             "Time": 10180,
@@ -36055,10 +35971,70 @@
             "RecordDate": "2023-12-18 09:08:05"
         },
         {
+            "PlayerLogin": "astrobound",
+            "PlayerId": null,
+            "Time": 10260,
+            "RecordDate": "2023-07-04 18:50:16"
+        },
+        {
             "PlayerLogin": "fillipp_",
             "PlayerId": null,
             "Time": 10260,
             "RecordDate": "2025-08-31 14:17:54"
+        },
+        {
+            "PlayerLogin": "iveco93",
+            "PlayerId": null,
+            "Time": 10310,
+            "RecordDate": "2023-07-04 18:50:16"
+        },
+        {
+            "PlayerLogin": "abus001",
+            "PlayerId": null,
+            "Time": 10320,
+            "RecordDate": "2023-07-04 18:50:16"
+        },
+        {
+            "PlayerLogin": "grepedon",
+            "PlayerId": null,
+            "Time": 10460,
+            "RecordDate": "2023-07-04 18:50:16"
+        },
+        {
+            "PlayerLogin": "klarr",
+            "PlayerId": null,
+            "Time": 10730,
+            "RecordDate": "2023-07-04 18:50:16"
+        },
+        {
+            "PlayerLogin": "herobrine1337",
+            "PlayerId": null,
+            "Time": 10790,
+            "RecordDate": "2023-07-04 18:50:16"
+        },
+        {
+            "PlayerLogin": "joaobudgi",
+            "PlayerId": null,
+            "Time": 10940,
+            "RecordDate": "2023-07-04 18:50:16"
+        },
+        {
+            "PlayerLogin": "narcorek",
+            "PlayerId": null,
+            "Time": 11160,
+            "RecordDate": "2023-07-04 18:50:16"
+        },
+        {
+            "PlayerLogin": "ixel",
+            "PlayerId": null,
+            "Time": 11290,
+            "RecordDate": "2023-07-04 18:50:16"
+        },
+        {
+            "PlayerLogin": "shedox",
+            "PlayerId": null,
+            "Time": 15290,
+            "RecordDate": "2023-07-04 18:50:16"
         }
     ],
     "10615859": [
@@ -36873,22 +36849,10 @@
     ],
     "10643598": [
         {
-            "PlayerLogin": "magistra_01",
-            "PlayerId": null,
-            "Time": 21300,
-            "RecordDate": "2023-07-20 16:10:59"
-        },
-        {
             "PlayerLogin": "narcorek",
             "PlayerId": null,
             "Time": 20940,
             "RecordDate": "2024-07-17 03:33:38"
-        },
-        {
-            "PlayerLogin": "js.louffy",
-            "PlayerId": null,
-            "Time": 21670,
-            "RecordDate": "2023-07-20 16:10:59"
         },
         {
             "PlayerLogin": "joaobudgi",
@@ -36901,12 +36865,6 @@
             "PlayerId": null,
             "Time": 21010,
             "RecordDate": "2023-07-17 17:08:08"
-        },
-        {
-            "PlayerLogin": "stormou",
-            "PlayerId": null,
-            "Time": 21740,
-            "RecordDate": "2023-07-20 16:10:59"
         },
         {
             "PlayerLogin": "d4rk0z3",
@@ -37011,6 +36969,12 @@
             "RecordDate": "2025-06-24 03:02:47"
         },
         {
+            "PlayerLogin": "magistra_01",
+            "PlayerId": null,
+            "Time": 21300,
+            "RecordDate": "2023-07-20 16:10:59"
+        },
+        {
             "PlayerLogin": "omiotm",
             "PlayerId": null,
             "Time": 21300,
@@ -37069,6 +37033,18 @@
             "PlayerId": null,
             "Time": 21560,
             "RecordDate": "2023-07-17 17:08:08"
+        },
+        {
+            "PlayerLogin": "js.louffy",
+            "PlayerId": null,
+            "Time": 21670,
+            "RecordDate": "2023-07-20 16:10:59"
+        },
+        {
+            "PlayerLogin": "stormou",
+            "PlayerId": null,
+            "Time": 21740,
+            "RecordDate": "2023-07-20 16:10:59"
         }
     ],
     "10643751": [
@@ -37766,12 +37742,6 @@
     ],
     "10646610": [
         {
-            "PlayerLogin": "wormbass",
-            "PlayerId": null,
-            "Time": 12550,
-            "RecordDate": "2024-07-25 05:38:15"
-        },
-        {
             "PlayerLogin": "dzamal1s",
             "PlayerId": null,
             "Time": 11790,
@@ -37782,12 +37752,6 @@
             "PlayerId": null,
             "Time": 11900,
             "RecordDate": "2024-04-27 17:08:43"
-        },
-        {
-            "PlayerLogin": "smxkxr",
-            "PlayerId": null,
-            "Time": 12870,
-            "RecordDate": "2024-07-25 05:38:15"
         },
         {
             "PlayerLogin": "bahjean",
@@ -38932,34 +38896,22 @@
             "RecordDate": "2025-02-09 10:46:43"
         },
         {
-            "PlayerLogin": "grepedon",
-            "PlayerId": null,
-            "Time": 151300,
-            "RecordDate": "2023-07-25 15:09:39"
-        },
-        {
-            "PlayerLogin": "julius137_",
-            "PlayerId": null,
-            "Time": 163100,
-            "RecordDate": "2023-07-25 15:09:39"
-        },
-        {
             "PlayerLogin": "magiclip",
             "PlayerId": null,
             "Time": 147070,
             "RecordDate": "2024-11-09 21:28:31"
         },
         {
-            "PlayerLogin": "qaz109",
-            "PlayerId": null,
-            "Time": 183510,
-            "RecordDate": "2023-07-25 15:09:39"
-        },
-        {
             "PlayerLogin": "kubixmister123",
             "PlayerId": null,
             "Time": 149980,
             "RecordDate": "2023-07-24 15:07:54"
+        },
+        {
+            "PlayerLogin": "grepedon",
+            "PlayerId": null,
+            "Time": 151300,
+            "RecordDate": "2023-07-25 15:09:39"
         },
         {
             "PlayerLogin": "w1ndspe3dyy",
@@ -38980,10 +38932,22 @@
             "RecordDate": "2023-07-24 15:07:54"
         },
         {
+            "PlayerLogin": "julius137_",
+            "PlayerId": null,
+            "Time": 163100,
+            "RecordDate": "2023-07-25 15:09:39"
+        },
+        {
             "PlayerLogin": "maelyne1631",
             "PlayerId": null,
             "Time": 163890,
             "RecordDate": "2024-07-08 12:19:15"
+        },
+        {
+            "PlayerLogin": "qaz109",
+            "PlayerId": null,
+            "Time": 183510,
+            "RecordDate": "2023-07-25 15:09:39"
         },
         {
             "PlayerLogin": "galaxym",
@@ -41709,12 +41673,6 @@
             "RecordDate": "2024-04-04 21:02:22"
         },
         {
-            "PlayerLogin": "styrox",
-            "PlayerId": null,
-            "Time": 8850,
-            "RecordDate": "2023-08-08 14:23:03"
-        },
-        {
             "PlayerLogin": "t.acc",
             "PlayerId": null,
             "Time": 8730,
@@ -41737,6 +41695,12 @@
             "PlayerId": null,
             "Time": 8840,
             "RecordDate": "2024-01-19 22:42:41"
+        },
+        {
+            "PlayerLogin": "styrox",
+            "PlayerId": null,
+            "Time": 8850,
+            "RecordDate": "2023-08-08 14:23:03"
         },
         {
             "PlayerLogin": "soupair",
@@ -53635,6 +53599,12 @@
             "RecordDate": "2024-01-05 00:56:20"
         },
         {
+            "PlayerLogin": "wikipave",
+            "PlayerId": null,
+            "Time": 9590,
+            "RecordDate": "2025-10-09 21:26:12"
+        },
+        {
             "PlayerLogin": "rumbleiq",
             "PlayerId": null,
             "Time": 9600,
@@ -53741,12 +53711,6 @@
             "PlayerId": null,
             "Time": 9980,
             "RecordDate": "2025-02-14 15:58:47"
-        },
-        {
-            "PlayerLogin": "dziwnystan",
-            "PlayerId": null,
-            "Time": 10040,
-            "RecordDate": "2023-12-18 18:58:23"
         }
     ],
     "11003399": [],
@@ -54671,6 +54635,24 @@
             "RecordDate": "2023-12-09 21:53:31"
         },
         {
+            "PlayerLogin": "vinci13",
+            "PlayerId": null,
+            "Time": 16440,
+            "RecordDate": "2023-12-09 21:53:31"
+        },
+        {
+            "PlayerLogin": "danny5man",
+            "PlayerId": null,
+            "Time": 16540,
+            "RecordDate": "2023-12-09 21:53:31"
+        },
+        {
+            "PlayerLogin": ".loe",
+            "PlayerId": null,
+            "Time": 16580,
+            "RecordDate": "2023-12-09 21:53:31"
+        },
+        {
             "PlayerLogin": "exix77",
             "PlayerId": null,
             "Time": 16590,
@@ -54683,15 +54665,9 @@
             "RecordDate": "2025-08-16 20:42:46"
         },
         {
-            "PlayerLogin": "vinci13",
+            "PlayerLogin": "bo.omz0r",
             "PlayerId": null,
-            "Time": 16440,
-            "RecordDate": "2023-12-09 21:53:31"
-        },
-        {
-            "PlayerLogin": "danny5man",
-            "PlayerId": null,
-            "Time": 16540,
+            "Time": 16690,
             "RecordDate": "2023-12-09 21:53:31"
         },
         {
@@ -54707,28 +54683,10 @@
             "RecordDate": "2025-05-17 14:33:02"
         },
         {
-            "PlayerLogin": ".loe",
-            "PlayerId": null,
-            "Time": 16580,
-            "RecordDate": "2023-12-09 21:53:31"
-        },
-        {
             "PlayerLogin": "lemon_playz",
             "PlayerId": null,
             "Time": 16810,
             "RecordDate": "2025-09-07 22:29:10"
-        },
-        {
-            "PlayerLogin": "bo.omz0r",
-            "PlayerId": null,
-            "Time": 16690,
-            "RecordDate": "2023-12-09 21:53:31"
-        },
-        {
-            "PlayerLogin": "-moritz92-",
-            "PlayerId": null,
-            "Time": 23280,
-            "RecordDate": "2023-12-09 21:53:31"
         },
         {
             "PlayerLogin": "thenlo_tm",
@@ -54771,6 +54729,12 @@
             "PlayerId": null,
             "Time": 19540,
             "RecordDate": "2023-12-13 21:03:05"
+        },
+        {
+            "PlayerLogin": "-moritz92-",
+            "PlayerId": null,
+            "Time": 23280,
+            "RecordDate": "2023-12-09 21:53:31"
         }
     ],
     "11031204": [
@@ -59964,6 +59928,12 @@
             "RecordDate": "2024-04-08 21:39:00"
         },
         {
+            "PlayerLogin": "mc_maddin",
+            "PlayerId": null,
+            "Time": 10220,
+            "RecordDate": "2025-10-07 07:43:56"
+        },
+        {
             "PlayerLogin": "denigraterium",
             "PlayerId": null,
             "Time": 10870,
@@ -60010,12 +59980,6 @@
             "PlayerId": null,
             "Time": 12610,
             "RecordDate": "2024-09-21 00:04:30"
-        },
-        {
-            "PlayerLogin": "mc_maddin",
-            "PlayerId": null,
-            "Time": 13270,
-            "RecordDate": "2024-01-23 13:55:15"
         },
         {
             "PlayerLogin": "maelyne1631",
@@ -62600,6 +62564,12 @@
             "RecordDate": "2024-03-04 09:56:09"
         },
         {
+            "PlayerLogin": "krvl_prestige_d",
+            "PlayerId": null,
+            "Time": 13710,
+            "RecordDate": "2025-10-09 13:49:18"
+        },
+        {
             "PlayerLogin": "ratabatacz",
             "PlayerId": null,
             "Time": 13780,
@@ -62670,12 +62640,6 @@
             "PlayerId": null,
             "Time": 17770,
             "RecordDate": "2025-03-02 01:20:05"
-        },
-        {
-            "PlayerLogin": "noelka44",
-            "PlayerId": null,
-            "Time": 22330,
-            "RecordDate": "2024-03-04 11:12:36"
         }
     ],
     "11149934": [
@@ -63540,6 +63504,12 @@
             "RecordDate": "2025-03-12 19:20:59"
         },
         {
+            "PlayerLogin": "agent00king",
+            "PlayerId": null,
+            "Time": 16420,
+            "RecordDate": "2025-10-09 15:00:57"
+        },
+        {
             "PlayerLogin": "sucad",
             "PlayerId": null,
             "Time": 16670,
@@ -63550,12 +63520,6 @@
             "PlayerId": null,
             "Time": 16760,
             "RecordDate": "2025-06-20 18:30:16"
-        },
-        {
-            "PlayerLogin": "agent00king",
-            "PlayerId": null,
-            "Time": 17090,
-            "RecordDate": "2025-07-01 21:48:52"
         },
         {
             "PlayerLogin": "samurai_master123",
@@ -63724,12 +63688,6 @@
     ],
     "11167617": [
         {
-            "PlayerLogin": "eltev_x",
-            "PlayerId": null,
-            "Time": 28640,
-            "RecordDate": "2025-07-09 19:49:04"
-        },
-        {
             "PlayerLogin": "usaontop2",
             "PlayerId": null,
             "Time": 11180,
@@ -63740,12 +63698,6 @@
             "PlayerId": null,
             "Time": 11520,
             "RecordDate": "2024-03-04 21:40:26"
-        },
-        {
-            "PlayerLogin": "usaontop2",
-            "PlayerId": null,
-            "Time": 70850,
-            "RecordDate": "2025-07-09 19:49:04"
         },
         {
             "PlayerLogin": "d4ve_xd",
@@ -64510,34 +64462,16 @@
     ],
     "11186158": [
         {
-            "PlayerLogin": "abus001",
-            "PlayerId": null,
-            "Time": 41940,
-            "RecordDate": "2024-02-20 20:14:43"
-        },
-        {
             "PlayerLogin": "w1ndspe3dyy",
             "PlayerId": null,
             "Time": 36970,
             "RecordDate": "2025-02-02 15:02:46"
         },
         {
-            "PlayerLogin": "bartosz1232",
-            "PlayerId": null,
-            "Time": 51940,
-            "RecordDate": "2024-02-20 20:14:43"
-        },
-        {
             "PlayerLogin": "fillipp_",
             "PlayerId": null,
             "Time": 39390,
             "RecordDate": "2025-02-02 15:02:46"
-        },
-        {
-            "PlayerLogin": "narcorek",
-            "PlayerId": null,
-            "Time": 80130,
-            "RecordDate": "2024-02-20 20:14:43"
         },
         {
             "PlayerLogin": "specul4rr",
@@ -64550,6 +64484,24 @@
             "PlayerId": null,
             "Time": 41300,
             "RecordDate": "2025-02-02 15:02:46"
+        },
+        {
+            "PlayerLogin": "abus001",
+            "PlayerId": null,
+            "Time": 41940,
+            "RecordDate": "2024-02-20 20:14:43"
+        },
+        {
+            "PlayerLogin": "bartosz1232",
+            "PlayerId": null,
+            "Time": 51940,
+            "RecordDate": "2024-02-20 20:14:43"
+        },
+        {
+            "PlayerLogin": "narcorek",
+            "PlayerId": null,
+            "Time": 80130,
+            "RecordDate": "2024-02-20 20:14:43"
         },
         {
             "PlayerLogin": "exix77",
@@ -68965,21 +68917,15 @@
     "11375044": [],
     "11403760": [
         {
-            "PlayerLogin": "racehansv2",
-            "PlayerId": null,
-            "Time": 10100,
-            "RecordDate": "2024-05-06 00:06:34"
-        },
-        {
             "PlayerLogin": "exix77",
             "PlayerId": null,
             "Time": 10080,
             "RecordDate": "2025-02-02 14:24:39"
         },
         {
-            "PlayerLogin": "akinator66",
+            "PlayerLogin": "racehansv2",
             "PlayerId": null,
-            "Time": 10130,
+            "Time": 10100,
             "RecordDate": "2024-05-06 00:06:34"
         },
         {
@@ -68987,6 +68933,12 @@
             "PlayerId": null,
             "Time": 10120,
             "RecordDate": "2025-02-02 14:24:39"
+        },
+        {
+            "PlayerLogin": "akinator66",
+            "PlayerId": null,
+            "Time": 10130,
+            "RecordDate": "2024-05-06 00:06:34"
         },
         {
             "PlayerLogin": "rowy_201",
@@ -73451,21 +73403,15 @@
     ],
     "11696705": [
         {
-            "PlayerLogin": "dennis090",
-            "PlayerId": null,
-            "Time": 17570,
-            "RecordDate": "2024-07-30 21:24:35"
-        },
-        {
             "PlayerLogin": "wildmagnusdk",
             "PlayerId": null,
             "Time": 17530,
             "RecordDate": "2025-06-27 18:23:36"
         },
         {
-            "PlayerLogin": "theinsan3",
+            "PlayerLogin": "dennis090",
             "PlayerId": null,
-            "Time": 17630,
+            "Time": 17570,
             "RecordDate": "2024-07-30 21:24:35"
         },
         {
@@ -73475,9 +73421,9 @@
             "RecordDate": "2024-07-30 16:32:53"
         },
         {
-            "PlayerLogin": "littlemaier57",
+            "PlayerLogin": "theinsan3",
             "PlayerId": null,
-            "Time": 17940,
+            "Time": 17630,
             "RecordDate": "2024-07-30 21:24:35"
         },
         {
@@ -73521,6 +73467,12 @@
             "PlayerId": null,
             "Time": 17930,
             "RecordDate": "2024-07-30 16:32:53"
+        },
+        {
+            "PlayerLogin": "littlemaier57",
+            "PlayerId": null,
+            "Time": 17940,
+            "RecordDate": "2024-07-30 21:24:35"
         },
         {
             "PlayerLogin": "fillipp_",
@@ -76427,6 +76379,12 @@
             "RecordDate": "2025-01-10 14:10:49"
         },
         {
+            "PlayerLogin": "deditrack",
+            "PlayerId": null,
+            "Time": 19340,
+            "RecordDate": "2025-10-06 08:44:34"
+        },
+        {
             "PlayerLogin": "sufffatze2",
             "PlayerId": null,
             "Time": 19480,
@@ -76467,12 +76425,6 @@
             "PlayerId": null,
             "Time": 20820,
             "RecordDate": "2025-04-13 10:15:33"
-        },
-        {
-            "PlayerLogin": "wallzey",
-            "PlayerId": null,
-            "Time": 21030,
-            "RecordDate": "2024-12-23 20:27:37"
         }
     ],
     "12000337": [
@@ -79264,7 +79216,14 @@
             "RecordDate": "2025-09-07 20:34:43"
         }
     ],
-    "12576706": [],
+    "12576706": [
+        {
+            "PlayerLogin": "therealsans",
+            "PlayerId": null,
+            "Time": 22090,
+            "RecordDate": "2025-10-06 21:12:32"
+        }
+    ],
     "12576724": [
         {
             "PlayerLogin": "mc_maddin",
@@ -79718,22 +79677,10 @@
     ],
     "12618281": [
         {
-            "PlayerLogin": "_-_gvm_-_",
-            "PlayerId": null,
-            "Time": 11960,
-            "RecordDate": "2025-05-27 18:31:18"
-        },
-        {
             "PlayerLogin": "dyusari",
             "PlayerId": null,
             "Time": 10270,
             "RecordDate": "2025-08-16 05:59:32"
-        },
-        {
-            "PlayerLogin": "dyusari",
-            "PlayerId": null,
-            "Time": 12470,
-            "RecordDate": "2025-05-27 18:31:18"
         },
         {
             "PlayerLogin": "alstorm125",
@@ -80101,6 +80048,12 @@
             "RecordDate": "2025-06-11 11:25:06"
         },
         {
+            "PlayerLogin": "eintraeumchen12",
+            "PlayerId": null,
+            "Time": 8980,
+            "RecordDate": "2025-10-08 18:26:37"
+        },
+        {
             "PlayerLogin": "paps_is_back",
             "PlayerId": null,
             "Time": 9060,
@@ -80125,6 +80078,12 @@
             "RecordDate": "2025-08-24 12:00:33"
         },
         {
+            "PlayerLogin": "zwavel",
+            "PlayerId": null,
+            "Time": 9170,
+            "RecordDate": "2025-10-08 18:33:41"
+        },
+        {
             "PlayerLogin": "daiwie",
             "PlayerId": null,
             "Time": 9250,
@@ -80135,6 +80094,12 @@
             "PlayerId": null,
             "Time": 9260,
             "RecordDate": "2025-06-08 12:10:45"
+        },
+        {
+            "PlayerLogin": "sufffatze2",
+            "PlayerId": null,
+            "Time": 9320,
+            "RecordDate": "2025-10-08 18:26:37"
         },
         {
             "PlayerLogin": "benitt_omsk",
@@ -80149,56 +80114,25 @@
             "RecordDate": "2025-07-03 12:15:25"
         },
         {
+            "PlayerLogin": "vikodine1337",
+            "PlayerId": null,
+            "Time": 9580,
+            "RecordDate": "2025-10-08 18:19:37"
+        },
+        {
             "PlayerLogin": "protogenharu",
             "PlayerId": null,
             "Time": 9780,
             "RecordDate": "2025-06-11 11:25:06"
         },
         {
-            "PlayerLogin": "dziwnystan",
+            "PlayerLogin": "joa_dubz",
             "PlayerId": null,
-            "Time": 10110,
-            "RecordDate": "2025-06-03 20:13:57"
-        },
-        {
-            "PlayerLogin": "the_ralf_shoemaker",
-            "PlayerId": null,
-            "Time": 10370,
-            "RecordDate": "2025-08-24 12:00:33"
-        },
-        {
-            "PlayerLogin": "icy_poland",
-            "PlayerId": null,
-            "Time": 10460,
-            "RecordDate": "2025-06-07 17:03:07"
-        },
-        {
-            "PlayerLogin": "heisfer",
-            "PlayerId": null,
-            "Time": 10580,
-            "RecordDate": "2025-10-01 19:26:46"
-        },
-        {
-            "PlayerLogin": "schnellfahrer98",
-            "PlayerId": null,
-            "Time": 11210,
-            "RecordDate": "2025-06-17 16:44:28"
+            "Time": 9780,
+            "RecordDate": "2025-10-08 18:26:37"
         }
     ],
-    "12645006": [
-        {
-            "PlayerLogin": "mc_maddin",
-            "PlayerId": null,
-            "Time": 10460,
-            "RecordDate": "2025-06-07 07:17:48"
-        },
-        {
-            "PlayerLogin": "kuhbusenmasseur",
-            "PlayerId": null,
-            "Time": 11340,
-            "RecordDate": "2025-06-06 16:29:17"
-        }
-    ],
+    "12645006": [],
     "12645027": [
         {
             "PlayerLogin": "pienz",
@@ -80249,16 +80183,34 @@
             "RecordDate": "2025-08-20 18:59:43"
         },
         {
+            "PlayerLogin": "yurii777888",
+            "PlayerId": null,
+            "Time": 11850,
+            "RecordDate": "2025-10-05 14:04:28"
+        },
+        {
             "PlayerLogin": "snariusje",
             "PlayerId": null,
             "Time": 11960,
             "RecordDate": "2025-09-28 20:00:36"
         },
         {
+            "PlayerLogin": "pidzi666",
+            "PlayerId": null,
+            "Time": 11960,
+            "RecordDate": "2025-10-05 14:04:28"
+        },
+        {
             "PlayerLogin": "ilf1rin",
             "PlayerId": null,
             "Time": 12290,
             "RecordDate": "2025-07-15 12:07:15"
+        },
+        {
+            "PlayerLogin": "marz35",
+            "PlayerId": null,
+            "Time": 12320,
+            "RecordDate": "2025-10-05 14:04:28"
         },
         {
             "PlayerLogin": "rogier123",
@@ -80273,12 +80225,6 @@
             "RecordDate": "2025-06-15 16:31:58"
         },
         {
-            "PlayerLogin": "marz35",
-            "PlayerId": null,
-            "Time": 12920,
-            "RecordDate": "2025-06-21 19:41:24"
-        },
-        {
             "PlayerLogin": "fastbuoy",
             "PlayerId": null,
             "Time": 12980,
@@ -80289,12 +80235,6 @@
             "PlayerId": null,
             "Time": 13070,
             "RecordDate": "2025-07-23 02:37:21"
-        },
-        {
-            "PlayerLogin": "yurii777888",
-            "PlayerId": null,
-            "Time": 13080,
-            "RecordDate": "2025-09-23 14:23:04"
         },
         {
             "PlayerLogin": "momphis",
@@ -80373,28 +80313,9 @@
             "PlayerId": null,
             "Time": 14470,
             "RecordDate": "2025-08-26 21:39:25"
-        },
-        {
-            "PlayerLogin": "heisfer",
-            "PlayerId": null,
-            "Time": 15160,
-            "RecordDate": "2025-09-12 07:23:59"
         }
     ],
-    "12645585": [
-        {
-            "PlayerLogin": "kuhbusenmasseur",
-            "PlayerId": null,
-            "Time": 10460,
-            "RecordDate": "2025-06-07 07:04:40"
-        },
-        {
-            "PlayerLogin": "mc_maddin",
-            "PlayerId": null,
-            "Time": 11040,
-            "RecordDate": "2025-06-06 10:53:34"
-        }
-    ],
+    "12645585": [],
     "12645632": [
         {
             "PlayerLogin": "pigoulette",
@@ -80511,20 +80432,7 @@
         }
     ],
     "12651398": [],
-    "12653170": [
-        {
-            "PlayerLogin": "usaontop2",
-            "PlayerId": null,
-            "Time": 18940,
-            "RecordDate": "2025-06-07 20:53:14"
-        },
-        {
-            "PlayerLogin": "dziwnystan",
-            "PlayerId": null,
-            "Time": 19390,
-            "RecordDate": "2025-06-07 20:53:14"
-        }
-    ],
+    "12653170": [],
     "12653425": [
         {
             "PlayerLogin": "dziwnystan",
@@ -81035,6 +80943,12 @@
             "RecordDate": "2025-07-10 15:58:50"
         },
         {
+            "PlayerLogin": "no_weed_no_party",
+            "PlayerId": null,
+            "Time": 8240,
+            "RecordDate": "2025-10-06 17:39:30"
+        },
+        {
             "PlayerLogin": "87pts",
             "PlayerId": null,
             "Time": 8270,
@@ -81081,6 +80995,12 @@
             "PlayerId": null,
             "Time": 8340,
             "RecordDate": "2025-07-20 17:42:39"
+        },
+        {
+            "PlayerLogin": "spyinfo.russia",
+            "PlayerId": null,
+            "Time": 8360,
+            "RecordDate": "2025-10-06 17:39:30"
         },
         {
             "PlayerLogin": "corey_123344",
@@ -81131,6 +81051,12 @@
             "RecordDate": "2025-09-07 06:26:49"
         },
         {
+            "PlayerLogin": "momphis",
+            "PlayerId": null,
+            "Time": 8420,
+            "RecordDate": "2025-10-06 17:39:30"
+        },
+        {
             "PlayerLogin": "raerastacz",
             "PlayerId": null,
             "Time": 8430,
@@ -81149,6 +81075,12 @@
             "RecordDate": "2025-09-17 10:17:38"
         },
         {
+            "PlayerLogin": "marz35",
+            "PlayerId": null,
+            "Time": 8440,
+            "RecordDate": "2025-10-06 17:39:30"
+        },
+        {
             "PlayerLogin": "grzesiu__",
             "PlayerId": null,
             "Time": 8460,
@@ -81159,30 +81091,1763 @@
             "PlayerId": null,
             "Time": 8460,
             "RecordDate": "2025-07-15 15:55:38"
+        }
+    ],
+    "12712457": [
+        {
+            "PlayerLogin": "dave_gabel",
+            "PlayerId": null,
+            "Time": 10480,
+            "RecordDate": "2025-07-11 18:05:38"
         },
         {
-            "PlayerLogin": "alchgoto",
+            "PlayerLogin": "momphis",
             "PlayerId": null,
-            "Time": 8460,
-            "RecordDate": "2025-07-16 13:55:47"
+            "Time": 10550,
+            "RecordDate": "2025-07-11 18:05:38"
+        },
+        {
+            "PlayerLogin": "fischy007",
+            "PlayerId": null,
+            "Time": 10570,
+            "RecordDate": "2025-07-12 11:20:46"
+        },
+        {
+            "PlayerLogin": "no_weed_no_party",
+            "PlayerId": null,
+            "Time": 10580,
+            "RecordDate": "2025-07-16 11:45:09"
+        },
+        {
+            "PlayerLogin": "gcuio4322",
+            "PlayerId": null,
+            "Time": 10590,
+            "RecordDate": "2025-08-20 22:47:28"
+        },
+        {
+            "PlayerLogin": "war_danny",
+            "PlayerId": null,
+            "Time": 10610,
+            "RecordDate": "2025-08-02 12:43:41"
+        },
+        {
+            "PlayerLogin": "ne0x.pe",
+            "PlayerId": null,
+            "Time": 10610,
+            "RecordDate": "2025-08-27 01:34:50"
+        },
+        {
+            "PlayerLogin": "raerastacz",
+            "PlayerId": null,
+            "Time": 10630,
+            "RecordDate": "2025-08-02 12:28:54"
         },
         {
             "PlayerLogin": "pienz",
             "PlayerId": null,
-            "Time": 8460,
-            "RecordDate": "2025-08-10 18:58:05"
+            "Time": 10640,
+            "RecordDate": "2025-07-12 11:20:46"
         },
         {
-            "PlayerLogin": "katagis",
+            "PlayerLogin": "chrisbaros",
             "PlayerId": null,
-            "Time": 8460,
-            "RecordDate": "2025-09-07 06:26:49"
+            "Time": 10640,
+            "RecordDate": "2025-07-16 11:38:01"
+        },
+        {
+            "PlayerLogin": "nilabu1234",
+            "PlayerId": null,
+            "Time": 10660,
+            "RecordDate": "2025-07-16 11:45:09"
+        },
+        {
+            "PlayerLogin": "er_ang",
+            "PlayerId": null,
+            "Time": 10680,
+            "RecordDate": "2025-08-02 12:36:11"
+        },
+        {
+            "PlayerLogin": "poizone_vl",
+            "PlayerId": null,
+            "Time": 10730,
+            "RecordDate": "2025-07-15 07:04:26"
+        },
+        {
+            "PlayerLogin": "byedodox",
+            "PlayerId": null,
+            "Time": 10780,
+            "RecordDate": "2025-08-02 12:43:41"
+        },
+        {
+            "PlayerLogin": "bomberserver",
+            "PlayerId": null,
+            "Time": 10800,
+            "RecordDate": "2025-10-08 14:17:19"
+        },
+        {
+            "PlayerLogin": "udopia79",
+            "PlayerId": null,
+            "Time": 10810,
+            "RecordDate": "2025-09-08 11:23:45"
+        },
+        {
+            "PlayerLogin": "piotrek7506",
+            "PlayerId": null,
+            "Time": 10820,
+            "RecordDate": "2025-07-12 11:20:46"
+        },
+        {
+            "PlayerLogin": "joa_dubz",
+            "PlayerId": null,
+            "Time": 10820,
+            "RecordDate": "2025-08-27 01:34:50"
+        },
+        {
+            "PlayerLogin": "mutkovic",
+            "PlayerId": null,
+            "Time": 10830,
+            "RecordDate": "2025-07-16 11:45:09"
+        },
+        {
+            "PlayerLogin": "barr",
+            "PlayerId": null,
+            "Time": 10830,
+            "RecordDate": "2025-08-02 12:36:11"
+        },
+        {
+            "PlayerLogin": "karolus19",
+            "PlayerId": null,
+            "Time": 10840,
+            "RecordDate": "2025-10-08 14:17:19"
+        },
+        {
+            "PlayerLogin": "pidzi666",
+            "PlayerId": null,
+            "Time": 10870,
+            "RecordDate": "2025-07-15 07:04:26"
+        },
+        {
+            "PlayerLogin": "po_zi",
+            "PlayerId": null,
+            "Time": 10880,
+            "RecordDate": "2025-07-16 11:45:09"
+        },
+        {
+            "PlayerLogin": "davidoff73",
+            "PlayerId": null,
+            "Time": 10880,
+            "RecordDate": "2025-10-08 14:17:19"
+        },
+        {
+            "PlayerLogin": "otto-2",
+            "PlayerId": null,
+            "Time": 10900,
+            "RecordDate": "2025-07-15 07:04:26"
+        },
+        {
+            "PlayerLogin": "twoteatoroomtwotwotwo",
+            "PlayerId": null,
+            "Time": 10910,
+            "RecordDate": "2025-07-11 18:05:38"
+        },
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 10910,
+            "RecordDate": "2025-07-16 11:38:01"
+        },
+        {
+            "PlayerLogin": "organnerx",
+            "PlayerId": null,
+            "Time": 10920,
+            "RecordDate": "2025-07-15 07:04:26"
+        },
+        {
+            "PlayerLogin": "testerxyz2021",
+            "PlayerId": null,
+            "Time": 10920,
+            "RecordDate": "2025-09-18 20:56:56"
+        },
+        {
+            "PlayerLogin": "trizzan",
+            "PlayerId": null,
+            "Time": 10930,
+            "RecordDate": "2025-07-16 11:38:01"
+        }
+    ],
+    "12713135": [
+        {
+            "PlayerLogin": "raerastacz",
+            "PlayerId": null,
+            "Time": 10690,
+            "RecordDate": "2025-07-26 09:27:57"
+        },
+        {
+            "PlayerLogin": "dave_gabel",
+            "PlayerId": null,
+            "Time": 10750,
+            "RecordDate": "2025-07-14 08:44:29"
+        },
+        {
+            "PlayerLogin": "pe3bbiy232",
+            "PlayerId": null,
+            "Time": 10750,
+            "RecordDate": "2025-07-27 09:37:22"
+        },
+        {
+            "PlayerLogin": "egorr1221",
+            "PlayerId": null,
+            "Time": 10780,
+            "RecordDate": "2025-07-27 19:39:46"
         },
         {
             "PlayerLogin": "ilf1rin",
             "PlayerId": null,
-            "Time": 8480,
-            "RecordDate": "2025-07-15 11:46:22"
+            "Time": 10800,
+            "RecordDate": "2025-07-17 13:42:28"
+        },
+        {
+            "PlayerLogin": "justcame1n",
+            "PlayerId": null,
+            "Time": 10830,
+            "RecordDate": "2025-10-07 22:14:13"
+        },
+        {
+            "PlayerLogin": "iriespamone",
+            "PlayerId": null,
+            "Time": 10880,
+            "RecordDate": "2025-08-16 23:28:35"
+        },
+        {
+            "PlayerLogin": "devil.tm",
+            "PlayerId": null,
+            "Time": 10920,
+            "RecordDate": "2025-07-13 02:54:21"
+        },
+        {
+            "PlayerLogin": "schoolgaming2023",
+            "PlayerId": null,
+            "Time": 10920,
+            "RecordDate": "2025-07-27 09:37:22"
+        },
+        {
+            "PlayerLogin": "rowy_201",
+            "PlayerId": null,
+            "Time": 11020,
+            "RecordDate": "2025-07-12 13:56:40"
+        },
+        {
+            "PlayerLogin": "marian_sz...321",
+            "PlayerId": null,
+            "Time": 11030,
+            "RecordDate": "2025-07-17 13:42:28"
+        },
+        {
+            "PlayerLogin": "toffi_svk",
+            "PlayerId": null,
+            "Time": 11050,
+            "RecordDate": "2025-07-17 13:35:23"
+        },
+        {
+            "PlayerLogin": "tm123459",
+            "PlayerId": null,
+            "Time": 11140,
+            "RecordDate": "2025-09-24 12:47:28"
+        },
+        {
+            "PlayerLogin": "joa_dubz",
+            "PlayerId": null,
+            "Time": 11160,
+            "RecordDate": "2025-08-04 17:07:43"
+        },
+        {
+            "PlayerLogin": "pointiff",
+            "PlayerId": null,
+            "Time": 11170,
+            "RecordDate": "2025-07-14 08:44:29"
+        },
+        {
+            "PlayerLogin": "franesos",
+            "PlayerId": null,
+            "Time": 11200,
+            "RecordDate": "2025-10-07 22:14:13"
+        },
+        {
+            "PlayerLogin": "linky10",
+            "PlayerId": null,
+            "Time": 11290,
+            "RecordDate": "2025-10-07 22:14:13"
+        },
+        {
+            "PlayerLogin": "h0eless19",
+            "PlayerId": null,
+            "Time": 11350,
+            "RecordDate": "2025-10-07 22:14:13"
+        },
+        {
+            "PlayerLogin": "pienz",
+            "PlayerId": null,
+            "Time": 11360,
+            "RecordDate": "2025-07-17 10:35:24"
+        },
+        {
+            "PlayerLogin": "marz35",
+            "PlayerId": null,
+            "Time": 11400,
+            "RecordDate": "2025-07-20 17:49:44"
+        },
+        {
+            "PlayerLogin": "organnerx",
+            "PlayerId": null,
+            "Time": 11410,
+            "RecordDate": "2025-07-14 08:44:29"
+        },
+        {
+            "PlayerLogin": "byedodox",
+            "PlayerId": null,
+            "Time": 11560,
+            "RecordDate": "2025-07-20 17:49:44"
+        },
+        {
+            "PlayerLogin": "roela",
+            "PlayerId": null,
+            "Time": 11570,
+            "RecordDate": "2025-07-17 13:42:28"
+        },
+        {
+            "PlayerLogin": "chrisbaros",
+            "PlayerId": null,
+            "Time": 11570,
+            "RecordDate": "2025-09-24 12:47:28"
+        },
+        {
+            "PlayerLogin": "gangus",
+            "PlayerId": null,
+            "Time": 11600,
+            "RecordDate": "2025-07-12 09:48:44"
+        },
+        {
+            "PlayerLogin": "maelyne1631",
+            "PlayerId": null,
+            "Time": 11690,
+            "RecordDate": "2025-10-07 22:14:13"
+        },
+        {
+            "PlayerLogin": "fischy007",
+            "PlayerId": null,
+            "Time": 11710,
+            "RecordDate": "2025-07-27 09:37:22"
+        },
+        {
+            "PlayerLogin": "hygors",
+            "PlayerId": null,
+            "Time": 11710,
+            "RecordDate": "2025-08-04 17:07:43"
+        },
+        {
+            "PlayerLogin": "piotrek7506",
+            "PlayerId": null,
+            "Time": 11730,
+            "RecordDate": "2025-07-17 10:35:24"
+        },
+        {
+            "PlayerLogin": "momphis",
+            "PlayerId": null,
+            "Time": 11790,
+            "RecordDate": "2025-07-27 19:39:46"
+        }
+    ],
+    "12714599": [
+        {
+            "PlayerLogin": "no_weed_no_party",
+            "PlayerId": null,
+            "Time": 10560,
+            "RecordDate": "2025-08-03 12:44:13"
+        },
+        {
+            "PlayerLogin": "schoolgaming2023",
+            "PlayerId": null,
+            "Time": 10600,
+            "RecordDate": "2025-09-12 17:03:25"
+        },
+        {
+            "PlayerLogin": "une_crotte_qui_parle",
+            "PlayerId": null,
+            "Time": 10710,
+            "RecordDate": "2025-09-06 15:51:54"
+        },
+        {
+            "PlayerLogin": "piotrek7506",
+            "PlayerId": null,
+            "Time": 10770,
+            "RecordDate": "2025-08-31 10:35:36"
+        },
+        {
+            "PlayerLogin": "organnerx",
+            "PlayerId": null,
+            "Time": 10830,
+            "RecordDate": "2025-07-15 07:27:45"
+        },
+        {
+            "PlayerLogin": "fatfuri",
+            "PlayerId": null,
+            "Time": 10840,
+            "RecordDate": "2025-08-09 09:21:34"
+        },
+        {
+            "PlayerLogin": "dave_gabel",
+            "PlayerId": null,
+            "Time": 10850,
+            "RecordDate": "2025-07-12 20:50:14"
+        },
+        {
+            "PlayerLogin": "verdeblanco",
+            "PlayerId": null,
+            "Time": 10850,
+            "RecordDate": "2025-07-15 07:27:45"
+        },
+        {
+            "PlayerLogin": "pienz",
+            "PlayerId": null,
+            "Time": 10890,
+            "RecordDate": "2025-07-28 23:35:34"
+        },
+        {
+            "PlayerLogin": "asertyuiop",
+            "PlayerId": null,
+            "Time": 10890,
+            "RecordDate": "2025-08-03 12:37:09"
+        },
+        {
+            "PlayerLogin": "duxe1",
+            "PlayerId": null,
+            "Time": 10900,
+            "RecordDate": "2025-08-10 09:06:02"
+        },
+        {
+            "PlayerLogin": "sufffatze2",
+            "PlayerId": null,
+            "Time": 10900,
+            "RecordDate": "2025-08-10 09:06:02"
+        },
+        {
+            "PlayerLogin": "peercarl",
+            "PlayerId": null,
+            "Time": 10910,
+            "RecordDate": "2025-09-12 17:03:25"
+        },
+        {
+            "PlayerLogin": "gangus",
+            "PlayerId": null,
+            "Time": 10960,
+            "RecordDate": "2025-07-13 09:39:42"
+        },
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 10960,
+            "RecordDate": "2025-08-10 09:06:02"
+        },
+        {
+            "PlayerLogin": "rokrystian123",
+            "PlayerId": null,
+            "Time": 10960,
+            "RecordDate": "2025-08-31 10:35:36"
+        },
+        {
+            "PlayerLogin": "yurii777888",
+            "PlayerId": null,
+            "Time": 10960,
+            "RecordDate": "2025-09-28 18:35:06"
+        },
+        {
+            "PlayerLogin": "agar02",
+            "PlayerId": null,
+            "Time": 10970,
+            "RecordDate": "2025-09-06 15:51:54"
+        },
+        {
+            "PlayerLogin": "marian_sz...321",
+            "PlayerId": null,
+            "Time": 10970,
+            "RecordDate": "2025-09-12 17:03:25"
+        },
+        {
+            "PlayerLogin": "leninjarouge",
+            "PlayerId": null,
+            "Time": 10980,
+            "RecordDate": "2025-10-05 13:06:42"
+        },
+        {
+            "PlayerLogin": "quentin5110054",
+            "PlayerId": null,
+            "Time": 11010,
+            "RecordDate": "2025-07-15 07:34:47"
+        },
+        {
+            "PlayerLogin": "reroot2",
+            "PlayerId": null,
+            "Time": 11030,
+            "RecordDate": "2025-10-05 13:06:42"
+        },
+        {
+            "PlayerLogin": "jo_la_taupe",
+            "PlayerId": null,
+            "Time": 11040,
+            "RecordDate": "2025-09-06 15:51:54"
+        },
+        {
+            "PlayerLogin": "hanshansenerdejlig",
+            "PlayerId": null,
+            "Time": 11040,
+            "RecordDate": "2025-09-28 18:35:06"
+        },
+        {
+            "PlayerLogin": "darkcat_",
+            "PlayerId": null,
+            "Time": 11040,
+            "RecordDate": "2025-09-28 18:35:06"
+        },
+        {
+            "PlayerLogin": "vdws",
+            "PlayerId": null,
+            "Time": 11050,
+            "RecordDate": "2025-07-15 07:27:45"
+        },
+        {
+            "PlayerLogin": "poizone_vl",
+            "PlayerId": null,
+            "Time": 11060,
+            "RecordDate": "2025-07-28 23:35:34"
+        },
+        {
+            "PlayerLogin": "hypersonic5000",
+            "PlayerId": null,
+            "Time": 11060,
+            "RecordDate": "2025-08-10 08:58:58"
+        },
+        {
+            "PlayerLogin": "marz35",
+            "PlayerId": null,
+            "Time": 11060,
+            "RecordDate": "2025-09-06 15:51:54"
+        },
+        {
+            "PlayerLogin": "ukitraper",
+            "PlayerId": null,
+            "Time": 11070,
+            "RecordDate": "2025-08-31 10:35:36"
+        }
+    ],
+    "12716097": [
+        {
+            "PlayerLogin": "basch142",
+            "PlayerId": null,
+            "Time": 22820,
+            "RecordDate": "2025-07-29 12:10:00"
+        },
+        {
+            "PlayerLogin": "dave_gabel",
+            "PlayerId": null,
+            "Time": 23020,
+            "RecordDate": "2025-07-13 11:19:12"
+        },
+        {
+            "PlayerLogin": "niyck",
+            "PlayerId": null,
+            "Time": 23150,
+            "RecordDate": "2025-07-29 12:10:00"
+        },
+        {
+            "PlayerLogin": "-avier-",
+            "PlayerId": null,
+            "Time": 23390,
+            "RecordDate": "2025-07-13 11:19:12"
+        },
+        {
+            "PlayerLogin": "marian_sz...321",
+            "PlayerId": null,
+            "Time": 23850,
+            "RecordDate": "2025-07-13 11:19:12"
+        },
+        {
+            "PlayerLogin": "no_weed_no_party",
+            "PlayerId": null,
+            "Time": 23950,
+            "RecordDate": "2025-07-13 11:19:12"
+        },
+        {
+            "PlayerLogin": "xcdswe32",
+            "PlayerId": null,
+            "Time": 23980,
+            "RecordDate": "2025-07-13 11:19:12"
+        },
+        {
+            "PlayerLogin": "neptune_is_dead",
+            "PlayerId": null,
+            "Time": 24250,
+            "RecordDate": "2025-07-13 11:19:12"
+        },
+        {
+            "PlayerLogin": "nilabu1234",
+            "PlayerId": null,
+            "Time": 24390,
+            "RecordDate": "2025-07-13 11:19:12"
+        },
+        {
+            "PlayerLogin": "momphis",
+            "PlayerId": null,
+            "Time": 24560,
+            "RecordDate": "2025-07-13 11:19:12"
+        },
+        {
+            "PlayerLogin": "piotrek7506",
+            "PlayerId": null,
+            "Time": 24820,
+            "RecordDate": "2025-07-13 11:19:12"
+        },
+        {
+            "PlayerLogin": "freday",
+            "PlayerId": null,
+            "Time": 24830,
+            "RecordDate": "2025-07-13 11:19:12"
+        },
+        {
+            "PlayerLogin": "regestriryisa",
+            "PlayerId": null,
+            "Time": 25310,
+            "RecordDate": "2025-07-13 11:19:12"
+        }
+    ],
+    "12716380": [
+        {
+            "PlayerLogin": "midoyt",
+            "PlayerId": null,
+            "Time": 12980,
+            "RecordDate": "2025-07-13 21:11:04"
+        },
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 13340,
+            "RecordDate": "2025-07-13 18:22:34"
+        },
+        {
+            "PlayerLogin": "titidu59450",
+            "PlayerId": null,
+            "Time": 13400,
+            "RecordDate": "2025-07-13 21:11:04"
+        }
+    ],
+    "12717072": [
+        {
+            "PlayerLogin": "sufffatze2",
+            "PlayerId": null,
+            "Time": 8660,
+            "RecordDate": "2025-08-10 09:13:08"
+        },
+        {
+            "PlayerLogin": "dzamal1s",
+            "PlayerId": null,
+            "Time": 8670,
+            "RecordDate": "2025-07-15 19:26:36"
+        },
+        {
+            "PlayerLogin": "war_danny",
+            "PlayerId": null,
+            "Time": 8670,
+            "RecordDate": "2025-08-02 17:53:06"
+        },
+        {
+            "PlayerLogin": "mataona_cz",
+            "PlayerId": null,
+            "Time": 8670,
+            "RecordDate": "2025-08-04 14:04:42"
+        },
+        {
+            "PlayerLogin": "ne0x.pe",
+            "PlayerId": null,
+            "Time": 8670,
+            "RecordDate": "2025-08-28 02:10:53"
+        },
+        {
+            "PlayerLogin": "ilf1rin",
+            "PlayerId": null,
+            "Time": 8680,
+            "RecordDate": "2025-07-14 10:36:55"
+        },
+        {
+            "PlayerLogin": "embergers",
+            "PlayerId": null,
+            "Time": 8680,
+            "RecordDate": "2025-07-15 19:26:36"
+        },
+        {
+            "PlayerLogin": "chrisbaros",
+            "PlayerId": null,
+            "Time": 8680,
+            "RecordDate": "2025-07-17 10:56:33"
+        },
+        {
+            "PlayerLogin": "sayonarapl",
+            "PlayerId": null,
+            "Time": 8680,
+            "RecordDate": "2025-09-16 10:38:58"
+        },
+        {
+            "PlayerLogin": "neptune_is_dead",
+            "PlayerId": null,
+            "Time": 8690,
+            "RecordDate": "2025-07-15 08:03:17"
+        },
+        {
+            "PlayerLogin": "jawher420",
+            "PlayerId": null,
+            "Time": 8690,
+            "RecordDate": "2025-07-15 08:03:17"
+        },
+        {
+            "PlayerLogin": "saifbnas",
+            "PlayerId": null,
+            "Time": 8690,
+            "RecordDate": "2025-07-15 19:26:36"
+        },
+        {
+            "PlayerLogin": "nikolabgd",
+            "PlayerId": null,
+            "Time": 8690,
+            "RecordDate": "2025-07-15 19:26:36"
+        },
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 8700,
+            "RecordDate": "2025-07-14 10:36:55"
+        },
+        {
+            "PlayerLogin": "byedodox",
+            "PlayerId": null,
+            "Time": 8700,
+            "RecordDate": "2025-07-15 17:21:37"
+        },
+        {
+            "PlayerLogin": "udopia79",
+            "PlayerId": null,
+            "Time": 8700,
+            "RecordDate": "2025-07-16 11:23:39"
+        },
+        {
+            "PlayerLogin": "piotrek7506",
+            "PlayerId": null,
+            "Time": 8700,
+            "RecordDate": "2025-07-17 10:56:33"
+        },
+        {
+            "PlayerLogin": "pienz",
+            "PlayerId": null,
+            "Time": 8700,
+            "RecordDate": "2025-07-17 10:56:33"
+        },
+        {
+            "PlayerLogin": "paps_is_back",
+            "PlayerId": null,
+            "Time": 8700,
+            "RecordDate": "2025-07-29 10:10:57"
+        },
+        {
+            "PlayerLogin": "marian_sz...321",
+            "PlayerId": null,
+            "Time": 8700,
+            "RecordDate": "2025-07-29 10:18:01"
+        },
+        {
+            "PlayerLogin": "__british__",
+            "PlayerId": null,
+            "Time": 8700,
+            "RecordDate": "2025-08-02 17:53:06"
+        },
+        {
+            "PlayerLogin": "zypher9999",
+            "PlayerId": null,
+            "Time": 8700,
+            "RecordDate": "2025-08-04 14:04:42"
+        },
+        {
+            "PlayerLogin": "poizone_vl",
+            "PlayerId": null,
+            "Time": 8700,
+            "RecordDate": "2025-08-04 14:04:42"
+        },
+        {
+            "PlayerLogin": "stasiu8",
+            "PlayerId": null,
+            "Time": 8700,
+            "RecordDate": "2025-09-07 17:08:39"
+        },
+        {
+            "PlayerLogin": "trzudekn",
+            "PlayerId": null,
+            "Time": 8700,
+            "RecordDate": "2025-09-16 10:38:58"
+        },
+        {
+            "PlayerLogin": "sensey8989",
+            "PlayerId": null,
+            "Time": 8700,
+            "RecordDate": "2025-09-16 10:38:58"
+        },
+        {
+            "PlayerLogin": "elilaterza",
+            "PlayerId": null,
+            "Time": 8700,
+            "RecordDate": "2025-10-05 18:36:32"
+        },
+        {
+            "PlayerLogin": "peercarl",
+            "PlayerId": null,
+            "Time": 8710,
+            "RecordDate": "2025-07-15 17:21:37"
+        },
+        {
+            "PlayerLogin": "renu_055",
+            "PlayerId": null,
+            "Time": 8710,
+            "RecordDate": "2025-07-15 19:26:36"
+        },
+        {
+            "PlayerLogin": "egorr1221",
+            "PlayerId": null,
+            "Time": 8710,
+            "RecordDate": "2025-08-03 20:09:27"
+        }
+    ],
+    "12719992": [],
+    "12720011": [
+        {
+            "PlayerLogin": "lopshi",
+            "PlayerId": null,
+            "Time": 10780,
+            "RecordDate": "2025-07-30 01:02:22"
+        },
+        {
+            "PlayerLogin": "masterowl75",
+            "PlayerId": null,
+            "Time": 10820,
+            "RecordDate": "2025-08-11 07:30:08"
+        },
+        {
+            "PlayerLogin": "yanemisha",
+            "PlayerId": null,
+            "Time": 10830,
+            "RecordDate": "2025-07-29 11:30:21"
+        },
+        {
+            "PlayerLogin": "b3lette",
+            "PlayerId": null,
+            "Time": 10830,
+            "RecordDate": "2025-08-31 12:24:46"
+        },
+        {
+            "PlayerLogin": "mrstock",
+            "PlayerId": null,
+            "Time": 10830,
+            "RecordDate": "2025-09-04 23:12:57"
+        },
+        {
+            "PlayerLogin": "dr.li",
+            "PlayerId": null,
+            "Time": 10850,
+            "RecordDate": "2025-07-17 19:07:20"
+        },
+        {
+            "PlayerLogin": "itamto",
+            "PlayerId": null,
+            "Time": 10850,
+            "RecordDate": "2025-07-29 13:53:38"
+        },
+        {
+            "PlayerLogin": "augustane",
+            "PlayerId": null,
+            "Time": 10860,
+            "RecordDate": "2025-07-29 13:53:38"
+        },
+        {
+            "PlayerLogin": "keeye",
+            "PlayerId": null,
+            "Time": 10870,
+            "RecordDate": "2025-07-17 19:12:52"
+        },
+        {
+            "PlayerLogin": "jozef_svk",
+            "PlayerId": null,
+            "Time": 10870,
+            "RecordDate": "2025-07-18 15:46:56"
+        },
+        {
+            "PlayerLogin": "thecuriousgoose",
+            "PlayerId": null,
+            "Time": 10870,
+            "RecordDate": "2025-07-21 18:21:19"
+        },
+        {
+            "PlayerLogin": "yrdk",
+            "PlayerId": null,
+            "Time": 10870,
+            "RecordDate": "2025-07-28 14:29:35"
+        },
+        {
+            "PlayerLogin": "kbirsic",
+            "PlayerId": null,
+            "Time": 10890,
+            "RecordDate": "2025-07-19 15:33:31"
+        },
+        {
+            "PlayerLogin": "grepedon",
+            "PlayerId": null,
+            "Time": 10920,
+            "RecordDate": "2025-07-28 14:29:35"
+        },
+        {
+            "PlayerLogin": "zmxncbv123098",
+            "PlayerId": null,
+            "Time": 10920,
+            "RecordDate": "2025-08-02 13:02:21"
+        },
+        {
+            "PlayerLogin": "atharmsel44",
+            "PlayerId": null,
+            "Time": 10940,
+            "RecordDate": "2025-08-02 13:02:21"
+        },
+        {
+            "PlayerLogin": "tm123459",
+            "PlayerId": null,
+            "Time": 11000,
+            "RecordDate": "2025-08-02 13:02:21"
+        },
+        {
+            "PlayerLogin": "wvisser318",
+            "PlayerId": null,
+            "Time": 11010,
+            "RecordDate": "2025-07-17 17:38:45"
+        },
+        {
+            "PlayerLogin": "rot_smakkert",
+            "PlayerId": null,
+            "Time": 11010,
+            "RecordDate": "2025-07-17 17:38:45"
+        },
+        {
+            "PlayerLogin": "rafikg3",
+            "PlayerId": null,
+            "Time": 11010,
+            "RecordDate": "2025-07-25 16:47:19"
+        },
+        {
+            "PlayerLogin": "reazzor",
+            "PlayerId": null,
+            "Time": 11010,
+            "RecordDate": "2025-07-28 14:29:35"
+        },
+        {
+            "PlayerLogin": "pulse.grip",
+            "PlayerId": null,
+            "Time": 11030,
+            "RecordDate": "2025-07-29 13:53:38"
+        },
+        {
+            "PlayerLogin": "grave_gordon",
+            "PlayerId": null,
+            "Time": 11030,
+            "RecordDate": "2025-08-28 20:09:28"
+        },
+        {
+            "PlayerLogin": "gorddandoter",
+            "PlayerId": null,
+            "Time": 11030,
+            "RecordDate": "2025-08-31 12:24:46"
+        },
+        {
+            "PlayerLogin": "revaro",
+            "PlayerId": null,
+            "Time": 11040,
+            "RecordDate": "2025-08-28 20:09:28"
+        }
+    ],
+    "12722294": [
+        {
+            "PlayerLogin": "corey_123344",
+            "PlayerId": null,
+            "Time": 14450,
+            "RecordDate": "2025-07-19 10:21:28"
+        },
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 15170,
+            "RecordDate": "2025-07-19 10:21:28"
+        },
+        {
+            "PlayerLogin": "rahzool",
+            "PlayerId": null,
+            "Time": 15860,
+            "RecordDate": "2025-07-19 10:21:28"
+        },
+        {
+            "PlayerLogin": "usaontop2",
+            "PlayerId": null,
+            "Time": 29170,
+            "RecordDate": "2025-07-19 10:21:28"
+        }
+    ],
+    "12722394": [],
+    "12725716": [],
+    "12726238": [
+        {
+            "PlayerLogin": "corey_123344",
+            "PlayerId": null,
+            "Time": 15150,
+            "RecordDate": "2025-07-21 10:06:54"
+        },
+        {
+            "PlayerLogin": "rahzool",
+            "PlayerId": null,
+            "Time": 15200,
+            "RecordDate": "2025-07-20 10:04:46"
+        },
+        {
+            "PlayerLogin": "tfr_scrim",
+            "PlayerId": null,
+            "Time": 15390,
+            "RecordDate": "2025-10-07 18:26:51"
+        },
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 15650,
+            "RecordDate": "2025-07-20 10:04:46"
+        },
+        {
+            "PlayerLogin": "galaxym",
+            "PlayerId": null,
+            "Time": 15900,
+            "RecordDate": "2025-07-20 10:04:46"
+        }
+    ],
+    "12728703": [
+        {
+            "PlayerLogin": "order6989",
+            "PlayerId": null,
+            "Time": 17220,
+            "RecordDate": "2025-07-23 19:20:52"
+        }
+    ],
+    "12733059": [],
+    "12733196": [],
+    "12733229": [
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 8490,
+            "RecordDate": "2025-08-21 09:21:44"
+        },
+        {
+            "PlayerLogin": "rahzool",
+            "PlayerId": null,
+            "Time": 8500,
+            "RecordDate": "2025-08-21 09:21:44"
+        },
+        {
+            "PlayerLogin": "corey_123344",
+            "PlayerId": null,
+            "Time": 8630,
+            "RecordDate": "2025-08-21 09:21:44"
+        },
+        {
+            "PlayerLogin": "omiotm",
+            "PlayerId": null,
+            "Time": 8660,
+            "RecordDate": "2025-08-21 09:21:44"
+        },
+        {
+            "PlayerLogin": "_tobias16_",
+            "PlayerId": null,
+            "Time": 8760,
+            "RecordDate": "2025-08-21 09:21:44"
+        }
+    ],
+    "12733779": [
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 11550,
+            "RecordDate": "2025-07-25 18:15:34"
+        }
+    ],
+    "12744561": [
+        {
+            "PlayerLogin": "tommyboy_xd",
+            "PlayerId": null,
+            "Time": 29920,
+            "RecordDate": "2025-08-05 12:24:24"
+        }
+    ],
+    "12757241": [],
+    "12762226": [],
+    "12769523": [],
+    "12771160": [
+        {
+            "PlayerLogin": "konradszpieg",
+            "PlayerId": null,
+            "Time": 10290,
+            "RecordDate": "2025-08-17 14:16:49"
+        },
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 10960,
+            "RecordDate": "2025-08-17 14:16:49"
+        }
+    ],
+    "12793470": [
+        {
+            "PlayerLogin": "dejong2",
+            "PlayerId": null,
+            "Time": 16890,
+            "RecordDate": "2025-08-18 10:28:14"
+        },
+        {
+            "PlayerLogin": "mytm10",
+            "PlayerId": null,
+            "Time": 17030,
+            "RecordDate": "2025-08-18 10:28:14"
+        },
+        {
+            "PlayerLogin": "stryme",
+            "PlayerId": null,
+            "Time": 17050,
+            "RecordDate": "2025-08-18 10:28:14"
+        },
+        {
+            "PlayerLogin": "lideree",
+            "PlayerId": null,
+            "Time": 17060,
+            "RecordDate": "2025-08-18 13:35:17"
+        },
+        {
+            "PlayerLogin": "zous",
+            "PlayerId": null,
+            "Time": 17070,
+            "RecordDate": "2025-08-17 22:40:54"
+        },
+        {
+            "PlayerLogin": "vdws",
+            "PlayerId": null,
+            "Time": 17130,
+            "RecordDate": "2025-08-18 09:25:44"
+        },
+        {
+            "PlayerLogin": "pilor",
+            "PlayerId": null,
+            "Time": 17320,
+            "RecordDate": "2025-08-17 22:40:54"
+        },
+        {
+            "PlayerLogin": "murkoffescape",
+            "PlayerId": null,
+            "Time": 17450,
+            "RecordDate": "2025-08-18 09:25:44"
+        },
+        {
+            "PlayerLogin": "tchan_c",
+            "PlayerId": null,
+            "Time": 17590,
+            "RecordDate": "2025-08-18 00:10:15"
+        },
+        {
+            "PlayerLogin": "easyride1986",
+            "PlayerId": null,
+            "Time": 17630,
+            "RecordDate": "2025-08-18 13:35:17"
+        },
+        {
+            "PlayerLogin": "absso13absso",
+            "PlayerId": null,
+            "Time": 17720,
+            "RecordDate": "2025-08-18 00:10:15"
+        },
+        {
+            "PlayerLogin": "bomberserver",
+            "PlayerId": null,
+            "Time": 17730,
+            "RecordDate": "2025-08-18 13:35:17"
+        },
+        {
+            "PlayerLogin": "drag100500",
+            "PlayerId": null,
+            "Time": 17780,
+            "RecordDate": "2025-08-18 10:28:14"
+        },
+        {
+            "PlayerLogin": "pbence2002",
+            "PlayerId": null,
+            "Time": 17880,
+            "RecordDate": "2025-08-18 13:35:17"
+        },
+        {
+            "PlayerLogin": "niklas_tuominen",
+            "PlayerId": null,
+            "Time": 17900,
+            "RecordDate": "2025-08-18 09:25:44"
+        },
+        {
+            "PlayerLogin": "ninja_tuna23",
+            "PlayerId": null,
+            "Time": 17970,
+            "RecordDate": "2025-08-18 19:07:46"
+        },
+        {
+            "PlayerLogin": "gora_xxx_",
+            "PlayerId": null,
+            "Time": 18010,
+            "RecordDate": "2025-08-18 10:28:14"
+        },
+        {
+            "PlayerLogin": "s.t.r.a.t.o",
+            "PlayerId": null,
+            "Time": 18290,
+            "RecordDate": "2025-08-18 10:28:14"
+        },
+        {
+            "PlayerLogin": "goeiegozer",
+            "PlayerId": null,
+            "Time": 18310,
+            "RecordDate": "2025-08-18 19:07:46"
+        },
+        {
+            "PlayerLogin": "yaray",
+            "PlayerId": null,
+            "Time": 18350,
+            "RecordDate": "2025-08-18 10:28:14"
+        },
+        {
+            "PlayerLogin": "buggeh",
+            "PlayerId": null,
+            "Time": 18360,
+            "RecordDate": "2025-08-18 09:25:44"
+        },
+        {
+            "PlayerLogin": "styrox",
+            "PlayerId": null,
+            "Time": 18390,
+            "RecordDate": "2025-08-19 15:28:25"
+        },
+        {
+            "PlayerLogin": "boddler",
+            "PlayerId": null,
+            "Time": 18460,
+            "RecordDate": "2025-08-19 15:28:25"
+        },
+        {
+            "PlayerLogin": "thanasisnaousa",
+            "PlayerId": null,
+            "Time": 18480,
+            "RecordDate": "2025-08-17 22:40:54"
+        },
+        {
+            "PlayerLogin": "order6989",
+            "PlayerId": null,
+            "Time": 18540,
+            "RecordDate": "2025-08-19 15:28:25"
+        },
+        {
+            "PlayerLogin": "freakyyyyyyy",
+            "PlayerId": null,
+            "Time": 18560,
+            "RecordDate": "2025-08-18 16:35:30"
+        },
+        {
+            "PlayerLogin": "porwor",
+            "PlayerId": null,
+            "Time": 18620,
+            "RecordDate": "2025-08-18 16:35:30"
+        },
+        {
+            "PlayerLogin": "saifbnas",
+            "PlayerId": null,
+            "Time": 18680,
+            "RecordDate": "2025-08-18 13:35:17"
+        },
+        {
+            "PlayerLogin": "bakatak",
+            "PlayerId": null,
+            "Time": 18720,
+            "RecordDate": "2025-08-18 16:35:30"
+        },
+        {
+            "PlayerLogin": "tijs_123",
+            "PlayerId": null,
+            "Time": 18730,
+            "RecordDate": "2025-08-18 09:25:44"
+        }
+    ],
+    "12800642": [
+        {
+            "PlayerLogin": "omiotm",
+            "PlayerId": null,
+            "Time": 11850,
+            "RecordDate": "2025-08-21 09:06:22"
+        },
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 12060,
+            "RecordDate": "2025-08-21 09:06:22"
+        },
+        {
+            "PlayerLogin": "wesleeh",
+            "PlayerId": null,
+            "Time": 12710,
+            "RecordDate": "2025-08-21 22:28:19"
+        },
+        {
+            "PlayerLogin": "saifbnas",
+            "PlayerId": null,
+            "Time": 12720,
+            "RecordDate": "2025-08-21 22:28:19"
+        },
+        {
+            "PlayerLogin": "pirugo7",
+            "PlayerId": null,
+            "Time": 12730,
+            "RecordDate": "2025-08-21 22:28:19"
+        },
+        {
+            "PlayerLogin": "_tobias16_",
+            "PlayerId": null,
+            "Time": 13070,
+            "RecordDate": "2025-08-21 09:06:22"
+        },
+        {
+            "PlayerLogin": "idragonzznw",
+            "PlayerId": null,
+            "Time": 13630,
+            "RecordDate": "2025-08-21 22:28:19"
+        },
+        {
+            "PlayerLogin": "miguel_luis_feioso",
+            "PlayerId": null,
+            "Time": 13770,
+            "RecordDate": "2025-08-21 22:28:19"
+        },
+        {
+            "PlayerLogin": "rahzool",
+            "PlayerId": null,
+            "Time": 13800,
+            "RecordDate": "2025-08-21 09:06:22"
+        },
+        {
+            "PlayerLogin": "agent00king",
+            "PlayerId": null,
+            "Time": 14080,
+            "RecordDate": "2025-08-30 08:36:14"
+        },
+        {
+            "PlayerLogin": "ben_k_6942",
+            "PlayerId": null,
+            "Time": 14620,
+            "RecordDate": "2025-08-21 22:28:19"
+        },
+        {
+            "PlayerLogin": "corey_123344",
+            "PlayerId": null,
+            "Time": 14910,
+            "RecordDate": "2025-08-21 09:06:22"
+        },
+        {
+            "PlayerLogin": "naelpvh",
+            "PlayerId": null,
+            "Time": 15000,
+            "RecordDate": "2025-08-21 22:28:19"
+        },
+        {
+            "PlayerLogin": "escada44",
+            "PlayerId": null,
+            "Time": 15020,
+            "RecordDate": "2025-08-21 22:28:19"
+        },
+        {
+            "PlayerLogin": "ventrx10",
+            "PlayerId": null,
+            "Time": 16079,
+            "RecordDate": "2025-08-30 08:36:14"
+        }
+    ],
+    "12805813": [
+        {
+            "PlayerLogin": "wormbass",
+            "PlayerId": null,
+            "Time": 582810,
+            "RecordDate": "2025-09-18 07:27:06"
+        }
+    ],
+    "12813747": [],
+    "12815475": [],
+    "12821526": [
+        {
+            "PlayerLogin": "monieklag",
+            "PlayerId": null,
+            "Time": 13350,
+            "RecordDate": "2025-09-19 16:07:49"
+        },
+        {
+            "PlayerLogin": "corey_123344",
+            "PlayerId": null,
+            "Time": 13420,
+            "RecordDate": "2025-09-05 12:41:21"
+        },
+        {
+            "PlayerLogin": "stormou",
+            "PlayerId": null,
+            "Time": 13560,
+            "RecordDate": "2025-09-19 16:07:49"
+        },
+        {
+            "PlayerLogin": "peanutbutter696969",
+            "PlayerId": null,
+            "Time": 13680,
+            "RecordDate": "2025-09-05 15:00:57"
+        },
+        {
+            "PlayerLogin": "_lucida",
+            "PlayerId": null,
+            "Time": 13740,
+            "RecordDate": "2025-09-18 10:25:00"
+        },
+        {
+            "PlayerLogin": "specul4rr",
+            "PlayerId": null,
+            "Time": 13760,
+            "RecordDate": "2025-09-19 16:07:49"
+        },
+        {
+            "PlayerLogin": "kubixmister123",
+            "PlayerId": null,
+            "Time": 13970,
+            "RecordDate": "2025-09-18 10:25:00"
+        },
+        {
+            "PlayerLogin": "wjdals7",
+            "PlayerId": null,
+            "Time": 14010,
+            "RecordDate": "2025-09-19 16:07:49"
+        },
+        {
+            "PlayerLogin": "zous",
+            "PlayerId": null,
+            "Time": 14030,
+            "RecordDate": "2025-09-14 05:11:44"
+        },
+        {
+            "PlayerLogin": "true_skill",
+            "PlayerId": null,
+            "Time": 14130,
+            "RecordDate": "2025-09-14 05:11:44"
+        },
+        {
+            "PlayerLogin": "critical33",
+            "PlayerId": null,
+            "Time": 14160,
+            "RecordDate": "2025-09-14 05:11:44"
+        },
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 14260,
+            "RecordDate": "2025-09-05 15:00:57"
+        },
+        {
+            "PlayerLogin": "absso13absso",
+            "PlayerId": null,
+            "Time": 14310,
+            "RecordDate": "2025-09-14 05:11:44"
+        },
+        {
+            "PlayerLogin": "jo_la_taupe",
+            "PlayerId": null,
+            "Time": 14540,
+            "RecordDate": "2025-09-19 16:07:49"
+        },
+        {
+            "PlayerLogin": "styrox",
+            "PlayerId": null,
+            "Time": 14560,
+            "RecordDate": "2025-09-19 16:07:49"
+        },
+        {
+            "PlayerLogin": "opin_op",
+            "PlayerId": null,
+            "Time": 14740,
+            "RecordDate": "2025-09-14 05:11:44"
+        },
+        {
+            "PlayerLogin": "yetitromba",
+            "PlayerId": null,
+            "Time": 15050,
+            "RecordDate": "2025-09-18 10:25:00"
+        },
+        {
+            "PlayerLogin": "starturbo",
+            "PlayerId": null,
+            "Time": 15060,
+            "RecordDate": "2025-09-14 05:11:44"
+        },
+        {
+            "PlayerLogin": "streaxid",
+            "PlayerId": null,
+            "Time": 15180,
+            "RecordDate": "2025-09-05 12:41:21"
+        },
+        {
+            "PlayerLogin": "duxe1",
+            "PlayerId": null,
+            "Time": 15300,
+            "RecordDate": "2025-09-19 16:07:49"
+        },
+        {
+            "PlayerLogin": "sea_empire",
+            "PlayerId": null,
+            "Time": 15380,
+            "RecordDate": "2025-09-18 10:25:00"
+        },
+        {
+            "PlayerLogin": "otto-2",
+            "PlayerId": null,
+            "Time": 15630,
+            "RecordDate": "2025-09-14 05:11:44"
+        },
+        {
+            "PlayerLogin": "sulutionx52",
+            "PlayerId": null,
+            "Time": 15740,
+            "RecordDate": "2025-09-19 16:07:49"
+        },
+        {
+            "PlayerLogin": "kuhbusenmasseur",
+            "PlayerId": null,
+            "Time": 15860,
+            "RecordDate": "2025-09-02 16:31:14"
+        },
+        {
+            "PlayerLogin": "juliencamard",
+            "PlayerId": null,
+            "Time": 15870,
+            "RecordDate": "2025-09-18 10:25:00"
+        },
+        {
+            "PlayerLogin": "zoomzoomzoomer",
+            "PlayerId": null,
+            "Time": 15910,
+            "RecordDate": "2025-09-14 05:11:44"
+        },
+        {
+            "PlayerLogin": "keanobeeksma",
+            "PlayerId": null,
+            "Time": 15910,
+            "RecordDate": "2025-09-19 16:07:49"
+        },
+        {
+            "PlayerLogin": "sagebrush",
+            "PlayerId": null,
+            "Time": 16329,
+            "RecordDate": "2025-09-14 05:11:44"
+        },
+        {
+            "PlayerLogin": "antonsarkka",
+            "PlayerId": null,
+            "Time": 16720,
+            "RecordDate": "2025-09-19 16:07:49"
+        },
+        {
+            "PlayerLogin": "owowwishyeet",
+            "PlayerId": null,
+            "Time": 17060,
+            "RecordDate": "2025-09-18 10:25:00"
+        }
+    ],
+    "12834795": [
+        {
+            "PlayerLogin": "yingying25",
+            "PlayerId": null,
+            "Time": 12930,
+            "RecordDate": "2025-09-13 15:07:40"
+        },
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 13320,
+            "RecordDate": "2025-09-13 15:07:40"
+        },
+        {
+            "PlayerLogin": "dhylamon",
+            "PlayerId": null,
+            "Time": 13430,
+            "RecordDate": "2025-09-13 15:07:40"
+        },
+        {
+            "PlayerLogin": "_tobias16_",
+            "PlayerId": null,
+            "Time": 13450,
+            "RecordDate": "2025-09-13 15:07:40"
+        }
+    ],
+    "12834827": [
+        {
+            "PlayerLogin": "mc_maddin",
+            "PlayerId": null,
+            "Time": 10300,
+            "RecordDate": "2025-09-13 17:55:07"
+        },
+        {
+            "PlayerLogin": "kuhbusenmasseur",
+            "PlayerId": null,
+            "Time": 11760,
+            "RecordDate": "2025-09-14 12:10:08"
+        },
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 12590,
+            "RecordDate": "2025-09-09 20:21:50"
+        },
+        {
+            "PlayerLogin": "crosshairek",
+            "PlayerId": null,
+            "Time": 13770,
+            "RecordDate": "2025-09-14 12:10:08"
+        }
+    ],
+    "12844459": [
+        {
+            "PlayerLogin": "mc_maddin",
+            "PlayerId": null,
+            "Time": 16800,
+            "RecordDate": "2025-09-15 16:52:52"
+        },
+        {
+            "PlayerLogin": "kuhbusenmasseur",
+            "PlayerId": null,
+            "Time": 17820,
+            "RecordDate": "2025-09-15 16:52:52"
+        }
+    ],
+    "12864147": [
+        {
+            "PlayerLogin": "mc_maddin",
+            "PlayerId": null,
+            "Time": 10050,
+            "RecordDate": "2025-09-23 16:47:29"
+        },
+        {
+            "PlayerLogin": "kuhbusenmasseur",
+            "PlayerId": null,
+            "Time": 10340,
+            "RecordDate": "2025-09-23 16:47:29"
+        }
+    ],
+    "12872556": [],
+    "12877766": [
+        {
+            "PlayerLogin": "exix77",
+            "PlayerId": null,
+            "Time": 34130,
+            "RecordDate": "2025-09-30 22:19:11"
+        },
+        {
+            "PlayerLogin": "jeezraps",
+            "PlayerId": null,
+            "Time": 60470,
+            "RecordDate": "2025-09-30 22:19:11"
+        }
+    ],
+    "12878123": [
+        {
+            "PlayerLogin": "exix77",
+            "PlayerId": null,
+            "Time": 10380,
+            "RecordDate": "2025-09-30 21:08:15"
+        },
+        {
+            "PlayerLogin": "michal23ck",
+            "PlayerId": null,
+            "Time": 10400,
+            "RecordDate": "2025-09-30 21:08:15"
+        },
+        {
+            "PlayerLogin": "jeezraps",
+            "PlayerId": null,
+            "Time": 10420,
+            "RecordDate": "2025-09-30 21:08:15"
+        },
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 10620,
+            "RecordDate": "2025-09-30 21:08:15"
+        }
+    ],
+    "12879292": [
+        {
+            "PlayerLogin": "jeezraps",
+            "PlayerId": null,
+            "Time": 22710,
+            "RecordDate": "2025-09-30 21:18:31"
+        },
+        {
+            "PlayerLogin": "exix77",
+            "PlayerId": null,
+            "Time": 22870,
+            "RecordDate": "2025-09-30 21:18:31"
+        },
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 23840,
+            "RecordDate": "2025-09-30 21:18:31"
+        },
+        {
+            "PlayerLogin": "78453761",
+            "PlayerId": null,
+            "Time": 25660,
+            "RecordDate": "2025-09-30 21:18:31"
+        }
+    ],
+    "12881028": [
+        {
+            "PlayerLogin": "dziwnystan",
+            "PlayerId": null,
+            "Time": 7500,
+            "RecordDate": "2025-09-30 20:31:17"
+        },
+        {
+            "PlayerLogin": "jeezraps",
+            "PlayerId": null,
+            "Time": 7880,
+            "RecordDate": "2025-09-30 20:54:32"
+        },
+        {
+            "PlayerLogin": "exix77",
+            "PlayerId": null,
+            "Time": 8109,
+            "RecordDate": "2025-09-30 20:54:32"
+        }
+    ],
+    "12887137": [
+        {
+            "PlayerLogin": "t.acc",
+            "PlayerId": null,
+            "Time": 12490,
+            "RecordDate": "2025-10-04 13:18:49"
         }
     ]
 }

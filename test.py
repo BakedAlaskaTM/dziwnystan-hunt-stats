@@ -1,3 +1,2 @@
 import functions
-
-functions.update_players()
+functions.update_recs(False, True)
