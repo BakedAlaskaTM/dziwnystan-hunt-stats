@@ -1,15 +1,19 @@
 import csv
 import json
 import requests
+import re
 from datetime import datetime as dt
+import datetime as dtm
 from tqdm import tqdm
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 import classes
+import time
 
 FIELDS = ["TrackId", "TrackName", "UId", "AuthorTime", "UploadedAt"]
 DATA_FILE_PATH = "Data/"
+REGEX_STRING = '[$][a-fA-F0-9][a-fA-F0-9][a-fA-F0-9]|[$][a-zA-Z]'
 
 def read_txt(filename: str):
     try:
@@ -84,9 +88,58 @@ def time_converter(time_str):
         time_seconds += float(split_time[(length-1)-i]) * (60**i)
     return time_seconds
 
+def update_buffer_file(data: dict, progress: int|list, data_for: str):
+    filename = f"{DATA_FILE_PATH}data_buffer.json"
+    buffer_dict = read_json(filename)
+    if buffer_dict is None:
+        buffer_dict = {}
+    if data_for == "players":
+        if type(progress) == int:
+            print("Error: progress must be a list for players data.")
+            return
+        buffer_dict[data_for] = {
+            "Date": dt.now(dtm.UTC).timestamp(),
+            "UpdatedLogins": progress,
+            "Data": data[data_for]
+        }
+    else:
+        if type(progress) == list:
+            print("Error: item_num must be an int for records data.")
+            return
+        buffer_dict[data_for] = {
+            "Date": dt.now(dtm.UTC).timestamp(),
+            "ItemNum": progress,
+            "Data": data[data_for]
+        }
+    write_json(filename, buffer_dict)
+
+def read_buffer_file(data_for: str):
+    filename = f"{DATA_FILE_PATH}data_buffer.json"
+    buffer_dict = read_json(filename)
+    if data_for == "players":
+        if buffer_dict is None or data_for not in buffer_dict:
+            return [None, [], None]
+        return [dt.fromtimestamp(buffer_dict[data_for]["Date"], dtm.UTC), buffer_dict["UpdatedLogins"], buffer_dict[data_for]["Data"]]
+    
+    if buffer_dict is None or data_for not in buffer_dict:
+        return [None, 0, None]
+    return [dt.fromtimestamp(buffer_dict[data_for]["Date"], dtm.UTC), buffer_dict[data_for]["ItemNum"], buffer_dict[data_for]["Data"]]
+
+def clear_buffer_file(data_for: list|str):
+    filename = f"{DATA_FILE_PATH}data_buffer.json"
+    buffer_dict = read_json(filename)
+    if buffer_dict is None:
+        buffer_dict = {}
+    if type(data_for) == str:
+        data_for = [data_for]
+    for data_key in data_for:
+        if data_key in buffer_dict:
+            del buffer_dict[data_key]
+    write_json(filename, buffer_dict)
+
 # Consolidation Functions
 def tracks_to_json():
-    tracks = load_csv("Maps.csv")
+    tracks = load_csv(f"{DATA_FILE_PATH}Maps.csv")
     tracks_dict = {row[FIELDS[0]]: classes.Track(row) for row in tracks}
     upload_track_data(f"{DATA_FILE_PATH}tracks.json", tracks_dict)
 
@@ -105,12 +158,6 @@ def get_tracks_from_author(author_id: int):
         more = content_dict["More"]
         all_tracks += content_dict["Results"]
         after_id = content_dict["Results"][-1]["TrackId"]
-
-    with open(f'Maps.csv', 'w', newline='', encoding="UTF-8") as csvfile:
-        writer = csv.writer(csvfile, delimiter='@')
-        writer.writerow([field for field in FIELDS])
-        for track_dict in all_tracks:
-            writer.writerow([track_dict[field] for field in FIELDS])
         
     write_csv(f"{DATA_FILE_PATH}Maps.csv", all_tracks, FIELDS)
 
@@ -126,11 +173,23 @@ def sort_recs(recs: list, player_id_key: str):
         
     return sorted_and_unique_recs
 
+def merge_recs(old_recs: dict, new_recs: dict, player_id_key: str):
+    for track_id, recs in new_recs.items():
+        if track_id in old_recs:
+            combined_recs = old_recs[track_id] + recs
+            old_recs[track_id] = sort_recs(combined_recs, player_id_key)
+    return old_recs
+
 def update_tmx_recs(tracks_dict: dict):
     replays = []
-    replay_dict = {}
+    buffer_date, progress, replay_dict = read_buffer_file("dedi")
+    if replay_dict is None:
+        replay_dict = {}
 
-    for id in tqdm(tracks_dict.keys()):
+    if buffer_date is not None and buffer_date < dt.now(dtm.UTC) - dtm.timedelta(days=2):
+        progress = 0
+        replay_dict = {}
+    for id in tqdm(list(tracks_dict.keys())[progress:]):
         response = requests.get(f"https://tmnf.exchange/api/replays?trackId={id}&fields=User.UserId%2CReplayTime%2CReplayAt")
         content = response.json()
         if response.status_code == 200:
@@ -141,37 +200,63 @@ def update_tmx_recs(tracks_dict: dict):
             replay_dict[id] = sort_recs(replays, "PlayerId")
         else:
             print("ERROR: CONNECTION FAILED")
+            update_buffer_file(replay_dict, progress, "tmx")
             return False
+        progress += 1
+    clear_buffer_file("tmx")
     return replay_dict
 
 def update_dedi_recs(tracks_dict: dict):
-    options = Options()
-    options.page_load_strategy = "normal"
-    replays = []
-    replay_dict = {}
-    driver = webdriver.Firefox()
-    for id in tqdm(tracks_dict.keys()):
-        driver.get(f"http://dedimania.net/tmstats/?do=stat&RecOrder3=RANK-ASC&Uid={tracks_dict[id][FIELDS[2]]}&Show=RECORDS")
-        replays = []
-        try:
-            info_table = driver.find_elements(By.XPATH, "//table[@class='tabl'][2]//tr")
-            for i in info_table:
-                if i.get_attribute("bgcolor") == "#FFFFFF" or i.get_attribute("bgcolor") == "#F0F0F0":
-                    login = i.find_element(By.XPATH, "./td[4]/a").get_attribute("innerHTML")
-                    replay_time = i.find_element(By.XPATH, "./td[8]/a").get_attribute("innerHTML")
-                    time_float = time_converter(replay_time)*1000
-                    record_date = i.find_element(By.XPATH, "./td[14]").get_attribute("innerHTML")
-                    replays.append(classes.Record({"PlayerLogin": login, "Time": time_float, "RecordDate": record_date}).properties())
-        except TimeoutError:
-            print("ERROR: CONNECTION FAILED")
-            return False
-        except:
-            pass
-        replay_dict[id] = sort_recs(replays, "PlayerLogin")
-    driver.quit()
-    return replay_dict
-        
+    players_dict = read_json(f"{DATA_FILE_PATH}players.json")
+    ml_logins = read_txt(f"{DATA_FILE_PATH}ml_logins.txt")
+    players_buffer_date, updated_players, players_dict_buffer = read_buffer_file("players")
+    if players_dict_buffer is not None and players_buffer_date is not None and players_buffer_date >= dt.now(dtm.UTC) - dtm.timedelta(days=2):
+        for login in updated_players:
+            players_dict[login] = players_dict_buffer[login]
+    recs_buffer_date, progress, replay_dict = read_buffer_file("dedi")
+    if replay_dict is None:
+        replay_dict = {}
+    if recs_buffer_date is None or recs_buffer_date < dt.now(dtm.UTC) - dtm.timedelta(days=2):
+        progress = 0
+        replay_dict = {}
     
+    for id in tqdm(list(tracks_dict.keys())[progress:]):
+        response = requests.get(f"http://dedimania.net:8000/MAP?uid={tracks_dict[id][FIELDS[2]]}")
+        content = response.content.decode("utf-8")
+        if response.status_code == 200:
+            replays = []
+            content = content.split("\r\n")
+            for line in content[1:len(content)-1]:
+                    line = line.split(",")
+                    login = line[4][4:]
+                    nickname = re.sub(REGEX_STRING, "", line[6])
+                    replay_time = int(line[1])
+                    record_date = int(line[3])
+                    replays.append(classes.Record({"PlayerLogin": login, "Time": replay_time, "RecordDate": record_date}).properties())
+                    if login not in updated_players:
+                        if login not in players_dict:
+                            in_ml = False
+                            if login in ml_logins:
+                                in_ml = True
+                            players_dict[login] = classes.Player({"Login": login, "Nickname": nickname, "TeamML": in_ml}).properties()
+                            updated_players.append(login)
+                        else:
+                            players_dict[login] = classes.Player({"Login": login, "Nickname": nickname, "TeamML": players_dict[login]["TeamML"]}).properties()
+                    updated_players.append(login)
+            replay_dict[id] = sort_recs(replays, "PlayerLogin")
+        else:
+            print("ERROR: CONNECTION FAILED")
+            update_buffer_file(replay_dict, progress, "dedi")
+            update_buffer_file(players_dict, updated_players, "players")
+            return False
+        progress += 1
+        time.sleep(2.5)  # To prevent overwhelming the dedi server
+
+    clear_buffer_file(["dedi", "players"])
+    write_json(f"{DATA_FILE_PATH}players.json", players_dict)
+    return replay_dict
+
+
 def update_recs(update_tmx: bool = True, update_dedi: bool = True):
     print("Updating Records:")
     tracks = load_csv(f"{DATA_FILE_PATH}Maps.csv")
@@ -179,25 +264,26 @@ def update_recs(update_tmx: bool = True, update_dedi: bool = True):
 
     if update_tmx:
         print("Updating TMX Records:")
-        tmx_dict = update_tmx_recs(tracks_dict)
+        tmx_dict = read_json(f"{DATA_FILE_PATH}tmx_records.json")
+        new_dict = update_tmx_recs(tracks_dict)
 
-        if not tmx_dict:
+        if not new_dict:
             print("ERROR: TMX UPDATE FAILURE.")
         else:
-            write_json(f"{DATA_FILE_PATH}tmx_replays.json", tmx_dict)
+            write_json(f"{DATA_FILE_PATH}tmx_records.json", merge_recs(tmx_dict, new_dict, "PlayerId"))
     
     if update_dedi:
         print("Updating Dedi Records:")
-        dedi_dict = update_dedi_recs(tracks_dict)
-        if not dedi_dict:
+        dedi_dict = read_json(f"{DATA_FILE_PATH}dedi_records.json")
+        new_dict = update_dedi_recs(tracks_dict)
+        if not new_dict:
             print("ERROR: DEDI UPDATE FAILURE.")
         else:
-            write_json(f"{DATA_FILE_PATH}dedi_replays.json", dedi_dict)
-
+            write_json(f"{DATA_FILE_PATH}dedi_records.json", merge_recs(dedi_dict, new_dict, "PlayerLogin"))
     return True
 
 def update_logins(logins: list):
-    dedi_recs_dict = read_json(f"{DATA_FILE_PATH}dedi_replays.json")
+    dedi_recs_dict = read_json(f"{DATA_FILE_PATH}dedi_records.json")
     for track_replays in tqdm(dedi_recs_dict.values()):
         for replay in track_replays:
             login = replay["PlayerLogin"]

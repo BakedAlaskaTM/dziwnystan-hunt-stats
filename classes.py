@@ -59,7 +59,9 @@ class Record:
             self.player_id = None
 
         self.time = int(properties["Time"])
-        if "T" in properties["RecordDate"]:
+        if type(properties["RecordDate"]) == int:
+            self.date = dt.fromtimestamp(properties["RecordDate"])
+        elif "T" in properties["RecordDate"]:
             self.date = dt.strptime(properties["RecordDate"], "%Y-%m-%dT%H:%M:%S")
         else:
             self.date = dt.strptime(properties["RecordDate"], "%Y-%m-%d %H:%M:%S")
