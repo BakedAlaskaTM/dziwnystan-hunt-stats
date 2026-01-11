@@ -253,7 +253,7 @@ def update_dedi_recs(tracks_dict: dict):
         time.sleep(2.5)  # To prevent overwhelming the dedi server
 
     clear_buffer_file(["dedi", "players"])
-    write_json(f"{DATA_FILE_PATH}players.json", players_dict)
+    update_players(players_dict, "dedi")
     return replay_dict
 
 
@@ -291,47 +291,42 @@ def update_logins(logins: list):
                 logins.append(login)
     return True
 
-def find_players_info(logins: list, ml_logins: list):
-    options = Options()
-    options.page_load_strategy = "normal"
-    players_dict = {}
-    driver = webdriver.Firefox()
-    for login in tqdm(logins):
-        driver.get(f"http://dedimania.net/tmstats/?do=stat&Login={login}&Show=PLAYERS")
-        try:
-            info_table = driver.find_elements(By.XPATH, "//table[@class='tabl'][2]//tr")
-            for i in info_table:
-                if i.get_attribute("bgcolor") == "#FFFFFF" or i.get_attribute("bgcolor") == "#F0F0F0":
-                    nickname = i.find_element(By.XPATH, "./td[6]/a").get_attribute("innerHTML")
-                    in_ml = False
-                    if login in ml_logins:
-                        in_ml = True
-                    player = classes.Player({"Login": login, "Nickname": nickname, "TeamML": in_ml}).properties()
-                    
-        except TimeoutError:
-            print("ERROR: CONNECTION FAILED")
-            return False
-        except:
-            pass
+def update_players(player_info, source):
+    players_dict = read_json(f"{DATA_FILE_PATH}players.json")
+    players_dict[source] = player_info
+    write_json(f"{DATA_FILE_PATH}players.json", players_dict)
+    return True
 
-        players_dict[login] = player
-    driver.quit()
-    return players_dict
+def update_tmx_players():
+    tmx_records = read_json(f"{DATA_FILE_PATH}tmx_records.json")
+    ml_info = read_json(f"{DATA_FILE_PATH}ml_info.json")
+    ml_ids = []
+    for ids in ml_info.values():
+        ml_ids += ids
+    ml_ids = list(set(ml_ids))
+    user_ids = set()
+    for records in tmx_records.values():
+        for record in records:
+            user_ids.add(record["PlayerId"])
 
-def update_players():
-    print("Updating Players:")
+    user_ids = list(user_ids)
 
-    logins = read_json(f"{DATA_FILE_PATH}player_logins.json")
-    if logins == None:
-        logins = []
-    ml_logins = read_txt(f"{DATA_FILE_PATH}ml_logins.txt")
-    update_logins(logins)
-    write_json(f"{DATA_FILE_PATH}player_logins.json", sorted(logins))
+    player_data = {}
 
-    players_dict = find_players_info(logins, ml_logins)
-    if not players_dict:
-        print("ERROR: PLAYERS UPDATE FAILURE.")
-        return False
-    else:
-        write_json(f"{DATA_FILE_PATH}players.json", players_dict)
-        return True
+    def get_player_info(ids):
+        if ids == []:
+            return
+        joined_ids = "%2C".join(ids[:100])
+        response = requests.get(f"https://tmnf.exchange/api/users?id={joined_ids}&count=100&fields=UserId%2CName")
+        data = response.json()
+        for player in data["Results"]:
+            if int(player["UserId"]) in ml_ids:
+                player_data[player["UserId"]] = classes.Player({"Id": player["UserId"], "Nickname": player["Name"], "TeamML": True}).properties()
+            else:
+                player_data[player["UserId"]] = classes.Player({"Id": player["UserId"], "Nickname": player["Name"], "TeamML": False}).properties()
+
+        get_player_info(ids[100:])
+
+    get_player_info(user_ids)
+
+    update_players(player_data, "tmx")
