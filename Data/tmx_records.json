@@ -654,6 +654,12 @@
     "9458281": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 22700,
+            "RecordDate": "2026-01-14 15:16:34"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "9530566",
             "Time": 22710,
             "RecordDate": "2025-06-03 08:06:04"
@@ -747,6 +753,12 @@
             "PlayerId": "8798580",
             "Time": 3900,
             "RecordDate": "2022-11-21 18:13:50"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 3920,
+            "RecordDate": "2026-01-14 15:16:39"
         },
         {
             "PlayerLogin": null,
@@ -846,15 +858,15 @@
         },
         {
             "PlayerLogin": null,
-            "PlayerId": "6394068",
-            "Time": 10900,
-            "RecordDate": "2022-05-07 13:21:53"
+            "PlayerId": "9473142",
+            "Time": 10520,
+            "RecordDate": "2026-01-14 15:16:33"
         },
         {
             "PlayerLogin": null,
-            "PlayerId": "9473142",
-            "Time": 10990,
-            "RecordDate": "2026-01-10 16:31:46"
+            "PlayerId": "6394068",
+            "Time": 10900,
+            "RecordDate": "2022-05-07 13:21:53"
         }
     ],
     "9561717": [
@@ -908,6 +920,12 @@
         },
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 14010,
+            "RecordDate": "2026-01-14 15:16:33"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "9587095",
             "Time": 16970,
             "RecordDate": "2025-08-25 18:41:37"
@@ -919,6 +937,12 @@
             "PlayerId": "10322611",
             "Time": 8300,
             "RecordDate": "2023-12-01 13:54:52"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 8770,
+            "RecordDate": "2026-01-14 15:16:33"
         },
         {
             "PlayerLogin": null,
@@ -960,6 +984,12 @@
         }
     ],
     "9580650": [
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 13450,
+            "RecordDate": "2026-01-14 15:16:33"
+        },
         {
             "PlayerLogin": null,
             "PlayerId": "6394068",
@@ -1057,6 +1087,12 @@
             "PlayerId": "343749",
             "Time": 12880,
             "RecordDate": "2023-01-11 13:08:37"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 12910,
+            "RecordDate": "2026-01-14 15:16:33"
         },
         {
             "PlayerLogin": null,
@@ -1193,6 +1229,12 @@
             "PlayerId": "8798580",
             "Time": 10060,
             "RecordDate": "2022-06-24 20:52:59"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 11400,
+            "RecordDate": "2026-01-14 15:16:33"
         },
         {
             "PlayerLogin": null,
@@ -1646,15 +1688,15 @@
     "9842491": [
         {
             "PlayerLogin": null,
-            "PlayerId": "8880070",
-            "Time": 14820,
-            "RecordDate": "2022-10-28 16:27:47"
+            "PlayerId": "9473142",
+            "Time": 14650,
+            "RecordDate": "2026-01-14 15:16:31"
         },
         {
             "PlayerLogin": null,
-            "PlayerId": "9473142",
-            "Time": 15270,
-            "RecordDate": "2026-01-10 16:32:12"
+            "PlayerId": "8880070",
+            "Time": 14820,
+            "RecordDate": "2022-10-28 16:27:47"
         },
         {
             "PlayerLogin": null,
@@ -2208,6 +2250,12 @@
     "9920022": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 10370,
+            "RecordDate": "2026-01-14 15:16:30"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "9323524",
             "Time": 10650,
             "RecordDate": "2022-11-01 13:49:32"
@@ -2293,6 +2341,12 @@
             "PlayerId": "8672272",
             "Time": 14830,
             "RecordDate": "2022-12-02 13:00:42"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 16960,
+            "RecordDate": "2026-01-14 15:16:26"
         }
     ],
     "10001324": [],
@@ -2323,6 +2377,12 @@
             "PlayerId": "9395089",
             "Time": 11110,
             "RecordDate": "2022-12-05 19:30:54"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 11210,
+            "RecordDate": "2026-01-14 15:16:26"
         },
         {
             "PlayerLogin": null,
@@ -2505,6 +2565,12 @@
             "PlayerId": "8601783",
             "Time": 10510,
             "RecordDate": "2024-01-17 02:05:08"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 11820,
+            "RecordDate": "2026-01-14 15:16:27"
         },
         {
             "PlayerLogin": null,
@@ -2906,6 +2972,12 @@
     "10031001": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 9960,
+            "RecordDate": "2026-01-14 15:16:25"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "9424541",
             "Time": 10070,
             "RecordDate": "2025-05-12 13:25:11"
@@ -3101,6 +3173,12 @@
             "PlayerId": "9171088",
             "Time": 8000,
             "RecordDate": "2023-03-27 08:54:49"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 8060,
+            "RecordDate": "2026-01-14 15:16:24"
         }
     ],
     "10037711": [
@@ -3225,6 +3303,12 @@
             "PlayerId": "9587095",
             "Time": 9280,
             "RecordDate": "2025-08-25 18:40:15"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 9440,
+            "RecordDate": "2026-01-14 15:16:24"
         },
         {
             "PlayerLogin": null,
@@ -3795,6 +3879,12 @@
     "10073673": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 12970,
+            "RecordDate": "2026-01-14 15:16:16"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "9908271",
             "Time": 13360,
             "RecordDate": "2023-01-13 22:02:59"
@@ -3818,6 +3908,12 @@
             "PlayerId": "6394068",
             "Time": 20340,
             "RecordDate": "2023-01-12 13:37:24"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 20390,
+            "RecordDate": "2026-01-14 15:16:15"
         },
         {
             "PlayerLogin": null,
@@ -3849,6 +3945,12 @@
     "10075076": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 15820,
+            "RecordDate": "2026-01-14 15:16:15"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "12646434",
             "Time": 24300,
             "RecordDate": "2025-08-29 23:14:36"
@@ -3869,6 +3971,12 @@
         }
     ],
     "10075327": [
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 10170,
+            "RecordDate": "2026-01-14 15:16:15"
+        },
         {
             "PlayerLogin": null,
             "PlayerId": "9589593",
@@ -3956,6 +4064,12 @@
             "PlayerId": "8601820",
             "Time": 13000,
             "RecordDate": "2023-01-15 16:19:20"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 15010,
+            "RecordDate": "2026-01-14 15:16:16"
         }
     ],
     "10079520": [
@@ -4620,8 +4734,14 @@
         {
             "PlayerLogin": null,
             "PlayerId": "7696517",
-            "Time": 11980,
-            "RecordDate": "2023-02-12 14:36:13"
+            "Time": 11920,
+            "RecordDate": "2026-01-14 16:56:29"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 11970,
+            "RecordDate": "2026-01-14 15:17:05"
         },
         {
             "PlayerLogin": null,
@@ -5082,15 +5202,15 @@
     "10129382": [
         {
             "PlayerLogin": null,
-            "PlayerId": "8797722",
-            "Time": 22690,
-            "RecordDate": "2024-08-17 16:57:04"
+            "PlayerId": "9473142",
+            "Time": 22600,
+            "RecordDate": "2026-01-14 15:16:02"
         },
         {
             "PlayerLogin": null,
-            "PlayerId": "9473142",
-            "Time": 23210,
-            "RecordDate": "2025-11-19 20:26:03"
+            "PlayerId": "8797722",
+            "Time": 22690,
+            "RecordDate": "2024-08-17 16:57:04"
         },
         {
             "PlayerLogin": null,
@@ -6131,6 +6251,12 @@
     "10174020": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9530566",
+            "Time": 5770,
+            "RecordDate": "2026-01-15 06:56:02"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "9412800",
             "Time": 6520,
             "RecordDate": "2025-12-29 22:38:10"
@@ -6287,6 +6413,12 @@
     "10198446": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9530566",
+            "Time": 3670,
+            "RecordDate": "2026-01-15 07:11:05"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "9908271",
             "Time": 3770,
             "RecordDate": "2023-02-16 08:15:09"
@@ -6417,6 +6549,12 @@
     "10201153": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 8830,
+            "RecordDate": "2026-01-14 15:16:40"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "9410627",
             "Time": 9530,
             "RecordDate": "2023-09-15 15:34:15"
@@ -6544,6 +6682,12 @@
             "PlayerId": "8782571",
             "Time": 38670,
             "RecordDate": "2024-02-25 11:28:44"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 51950,
+            "RecordDate": "2026-01-14 15:17:35"
         }
     ],
     "10209522": [
@@ -9109,6 +9253,12 @@
     "10453087": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 40950,
+            "RecordDate": "2026-01-14 15:16:02"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "8155451",
             "Time": 113690,
             "RecordDate": "2024-11-26 21:54:31"
@@ -10934,6 +11084,12 @@
     "10526887": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 138090,
+            "RecordDate": "2026-01-14 15:16:29"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "8955776",
             "Time": 139650,
             "RecordDate": "2025-06-25 06:00:46"
@@ -10949,12 +11105,6 @@
             "PlayerId": "6645497",
             "Time": 155590,
             "RecordDate": "2023-12-02 16:10:33"
-        },
-        {
-            "PlayerLogin": null,
-            "PlayerId": "9473142",
-            "Time": 198010,
-            "RecordDate": "2026-01-10 16:40:53"
         }
     ],
     "10528322": [
@@ -11731,6 +11881,12 @@
             "PlayerId": "10545284",
             "Time": 13620,
             "RecordDate": "2023-07-14 12:45:27"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 13820,
+            "RecordDate": "2026-01-14 15:17:32"
         }
     ],
     "10542334": [
@@ -13836,6 +13992,12 @@
         },
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 7740,
+            "RecordDate": "2026-01-14 15:16:38"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "10638965",
             "Time": 8000,
             "RecordDate": "2024-08-04 08:10:17"
@@ -15808,6 +15970,12 @@
         },
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 6760,
+            "RecordDate": "2026-01-14 15:16:36"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "10208250",
             "Time": 7040,
             "RecordDate": "2024-07-16 09:12:24"
@@ -16537,6 +16705,12 @@
             "PlayerId": "9970456",
             "Time": 13140,
             "RecordDate": "2025-11-21 15:30:51"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 13460,
+            "RecordDate": "2026-01-14 15:17:32"
         }
     ],
     "10844663": [
@@ -16887,6 +17061,12 @@
             "PlayerId": "10208250",
             "Time": 6700,
             "RecordDate": "2024-07-16 09:12:25"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 6940,
+            "RecordDate": "2026-01-14 15:16:37"
         },
         {
             "PlayerLogin": null,
@@ -18895,6 +19075,12 @@
         },
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 17450,
+            "RecordDate": "2026-01-14 15:16:41"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "8672272",
             "Time": 18760,
             "RecordDate": "2023-11-07 21:22:01"
@@ -19391,6 +19577,12 @@
     "10991807": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 7590,
+            "RecordDate": "2026-01-14 15:16:38"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "10638965",
             "Time": 8130,
             "RecordDate": "2023-11-24 10:36:08"
@@ -19693,6 +19885,12 @@
     "11019717": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 141930,
+            "RecordDate": "2026-01-14 15:16:17"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "8797722",
             "Time": 194240,
             "RecordDate": "2024-09-09 03:22:15"
@@ -19768,6 +19966,12 @@
             "PlayerId": "11002840",
             "Time": 6980,
             "RecordDate": "2023-12-03 20:21:23"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 6980,
+            "RecordDate": "2026-01-14 15:16:38"
         },
         {
             "PlayerLogin": null,
@@ -21158,6 +21362,12 @@
             "PlayerId": "10758555",
             "Time": 12680,
             "RecordDate": "2024-01-04 14:24:56"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 13180,
+            "RecordDate": "2026-01-14 15:17:08"
         },
         {
             "PlayerLogin": null,
@@ -22579,6 +22789,12 @@
         },
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 27220,
+            "RecordDate": "2026-01-14 15:16:36"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "8797722",
             "Time": 108140,
             "RecordDate": "2024-09-02 20:46:46"
@@ -23471,6 +23687,12 @@
         },
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 69960,
+            "RecordDate": "2026-01-14 15:16:25"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "9587095",
             "Time": 71360,
             "RecordDate": "2025-08-25 18:41:39"
@@ -23480,12 +23702,6 @@
             "PlayerId": "10932924",
             "Time": 72190,
             "RecordDate": "2024-02-21 16:08:06"
-        },
-        {
-            "PlayerLogin": null,
-            "PlayerId": "9473142",
-            "Time": 76360,
-            "RecordDate": "2026-01-10 16:34:29"
         }
     ],
     "11188152": [
@@ -24192,6 +24408,12 @@
             "PlayerId": "9685866",
             "Time": 7590,
             "RecordDate": "2024-03-20 21:03:10"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 15440,
+            "RecordDate": "2026-01-14 15:16:40"
         }
     ],
     "11255511": [
@@ -24649,6 +24871,12 @@
     "11305196": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 210650,
+            "RecordDate": "2026-01-14 15:16:25"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "1540793",
             "Time": 423280,
             "RecordDate": "2024-05-18 16:34:23"
@@ -24748,8 +24976,8 @@
         {
             "PlayerLogin": null,
             "PlayerId": "9473142",
-            "Time": 24300,
-            "RecordDate": "2026-01-10 16:31:47"
+            "Time": 23180,
+            "RecordDate": "2026-01-14 15:16:25"
         },
         {
             "PlayerLogin": null,
@@ -25447,6 +25675,12 @@
         },
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 6530,
+            "RecordDate": "2026-01-14 15:16:35"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "10344535",
             "Time": 6570,
             "RecordDate": "2024-10-09 01:52:12"
@@ -25819,15 +26053,15 @@
     "11496852": [
         {
             "PlayerLogin": null,
-            "PlayerId": "9395089",
-            "Time": 8060,
-            "RecordDate": "2024-07-12 20:00:07"
+            "PlayerId": "9473142",
+            "Time": 7770,
+            "RecordDate": "2026-01-14 15:16:58"
         },
         {
             "PlayerLogin": null,
-            "PlayerId": "9473142",
-            "Time": 8540,
-            "RecordDate": "2025-11-19 20:24:12"
+            "PlayerId": "9395089",
+            "Time": 8060,
+            "RecordDate": "2024-07-12 20:00:07"
         }
     ],
     "11497925": [
@@ -26184,8 +26418,8 @@
         {
             "PlayerLogin": null,
             "PlayerId": "9473142",
-            "Time": 37580,
-            "RecordDate": "2026-01-10 16:35:15"
+            "Time": 36780,
+            "RecordDate": "2026-01-14 15:16:25"
         },
         {
             "PlayerLogin": null,
@@ -26701,6 +26935,12 @@
         },
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 10150,
+            "RecordDate": "2026-01-14 15:16:35"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "9561710",
             "Time": 10290,
             "RecordDate": "2024-11-15 13:04:36"
@@ -26733,6 +26973,12 @@
         },
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 6990,
+            "RecordDate": "2026-01-14 15:16:35"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "9587095",
             "Time": 8780,
             "RecordDate": "2025-08-25 18:40:32"
@@ -26758,6 +27004,12 @@
             "PlayerId": "9182879",
             "Time": 13420,
             "RecordDate": "2024-07-22 20:05:35"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 16120,
+            "RecordDate": "2026-01-14 15:16:35"
         }
     ],
     "11682768": [
@@ -28605,6 +28857,12 @@
             "PlayerId": "10555248",
             "Time": 8980,
             "RecordDate": "2025-03-13 16:58:45"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 14690,
+            "RecordDate": "2026-01-14 15:16:31"
         }
     ],
     "12367792": [
@@ -28695,6 +28953,12 @@
             "PlayerId": "10452412",
             "Time": 15290,
             "RecordDate": "2025-03-01 10:54:54"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 16850,
+            "RecordDate": "2026-01-14 15:16:37"
         },
         {
             "PlayerLogin": null,
@@ -28895,6 +29159,12 @@
             "PlayerId": "12425898",
             "Time": 5630,
             "RecordDate": "2025-03-23 00:13:13"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 5630,
+            "RecordDate": "2026-01-14 15:16:39"
         }
     ],
     "12437221": [
@@ -28931,6 +29201,12 @@
             "PlayerId": "8672272",
             "Time": 8730,
             "RecordDate": "2025-03-22 17:42:25"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 9420,
+            "RecordDate": "2026-01-14 15:16:31"
         },
         {
             "PlayerLogin": null,
@@ -29062,6 +29338,12 @@
         },
         {
             "PlayerLogin": null,
+            "PlayerId": "11499723",
+            "Time": 16440,
+            "RecordDate": "2026-01-14 18:44:35"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "9513776",
             "Time": 27530,
             "RecordDate": "2025-04-03 18:05:51"
@@ -29104,6 +29386,12 @@
         }
     ],
     "12548668": [
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 17930,
+            "RecordDate": "2026-01-14 15:16:31"
+        },
         {
             "PlayerLogin": null,
             "PlayerId": "9376022",
@@ -29699,12 +29987,24 @@
     "12642211": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 22010,
+            "RecordDate": "2026-01-14 15:16:53"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "9513776",
             "Time": 40700,
             "RecordDate": "2025-08-22 17:01:18"
         }
     ],
     "12642708": [
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 34570,
+            "RecordDate": "2026-01-14 15:16:37"
+        },
         {
             "PlayerLogin": null,
             "PlayerId": "9513776",
@@ -29727,6 +30027,12 @@
         }
     ],
     "12643895": [
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 22790,
+            "RecordDate": "2026-01-14 15:16:39"
+        },
         {
             "PlayerLogin": null,
             "PlayerId": "8672272",
@@ -29892,6 +30198,12 @@
             "PlayerId": "9376022",
             "Time": 8550,
             "RecordDate": "2025-06-05 17:25:13"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 9540,
+            "RecordDate": "2026-01-14 15:16:40"
         }
     ],
     "12649081": [
@@ -29983,6 +30295,12 @@
         }
     ],
     "12655447": [
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 25210,
+            "RecordDate": "2026-01-14 15:16:39"
+        },
         {
             "PlayerLogin": null,
             "PlayerId": "3910",
@@ -30352,6 +30670,12 @@
     "12714599": [
         {
             "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 10780,
+            "RecordDate": "2026-01-14 15:16:31"
+        },
+        {
+            "PlayerLogin": null,
             "PlayerId": "6946773",
             "Time": 10850,
             "RecordDate": "2025-07-14 07:18:21"
@@ -30373,6 +30697,12 @@
             "PlayerId": "10847581",
             "Time": 11320,
             "RecordDate": "2025-11-14 20:15:07"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "11499723",
+            "Time": 13240,
+            "RecordDate": "2026-01-14 18:44:54"
         },
         {
             "PlayerLogin": null,
@@ -30943,8 +31273,8 @@
         {
             "PlayerLogin": null,
             "PlayerId": "9473142",
-            "Time": 31860,
-            "RecordDate": "2025-11-19 20:19:11"
+            "Time": 31610,
+            "RecordDate": "2026-01-14 15:16:33"
         },
         {
             "PlayerLogin": null,
@@ -31033,8 +31363,8 @@
         {
             "PlayerLogin": null,
             "PlayerId": "9473142",
-            "Time": 11020,
-            "RecordDate": "2025-11-19 20:18:36"
+            "Time": 10890,
+            "RecordDate": "2026-01-14 15:16:39"
         },
         {
             "PlayerLogin": null,
@@ -31078,6 +31408,12 @@
         }
     ],
     "12957073": [
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 20510,
+            "RecordDate": "2026-01-14 15:16:40"
+        },
         {
             "PlayerLogin": null,
             "PlayerId": "9513776",
@@ -31219,6 +31555,12 @@
             "PlayerId": "9376022",
             "Time": 20690,
             "RecordDate": "2025-11-24 21:18:41"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 21640,
+            "RecordDate": "2026-01-14 15:16:35"
         },
         {
             "PlayerLogin": null,
@@ -31389,8 +31731,14 @@
         {
             "PlayerLogin": null,
             "PlayerId": "10900749",
-            "Time": 20780,
-            "RecordDate": "2026-01-03 22:31:47"
+            "Time": 20720,
+            "RecordDate": "2026-01-14 16:22:30"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "9473142",
+            "Time": 20760,
+            "RecordDate": "2026-01-14 15:16:37"
         }
     ],
     "13094419": [

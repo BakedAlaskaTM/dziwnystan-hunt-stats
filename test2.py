@@ -1,11 +1,8 @@
 from functions import *
 
-ml_info = read_json(f"{DATA_FILE_PATH}ml_info.json")
+players_dict = read_json(f"{DATA_FILE_PATH}players.json")
 
-for key, value in ml_info.items():
-    ml_info[key] = {
-        "Login": key,
-        "TMX": value
-    }
+dedi_dict = players_dict["dedi"]["dedi"]
+tmx_dict = players_dict["dedi"]["tmx"]
 
-write_json(f"{DATA_FILE_PATH}ml_info.json", ml_info)
+write_json(f"{DATA_FILE_PATH}players.json", {"dedi": dedi_dict, "tmx": tmx_dict})

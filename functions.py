@@ -13,6 +13,7 @@ import time
 
 FIELDS = ["TrackId", "TrackName", "UId", "AuthorTime", "UploadedAt"]
 DATA_FILE_PATH = "Data/"
+WEBSITE_FILE_PATH = "D:/Devin stuff/Python Stuff/Website/data/"
 REGEX_STRING = '[$][a-fA-F0-9][a-fA-F0-9][a-fA-F0-9]|[$][a-zA-Z]'
 
 def read_txt(filename: str):
@@ -178,6 +179,8 @@ def merge_recs(old_recs: dict, new_recs: dict, player_id_key: str):
         if track_id in old_recs:
             combined_recs = old_recs[track_id] + recs
             old_recs[track_id] = sort_recs(combined_recs, player_id_key)
+        else:
+            old_recs[track_id] = recs
     return old_recs
 
 def update_tmx_recs(tracks_dict: dict):
@@ -207,7 +210,7 @@ def update_tmx_recs(tracks_dict: dict):
     return replay_dict
 
 def update_dedi_recs(tracks_dict: dict):
-    players_dict = read_json(f"{DATA_FILE_PATH}players.json")
+    players_dict = read_json(f"{DATA_FILE_PATH}players.json")["dedi"]
     ml_logins = read_txt(f"{DATA_FILE_PATH}ml_logins.txt")
     players_buffer_date, updated_players, players_dict_buffer = read_buffer_file("players")
     if players_dict_buffer is not None and players_buffer_date is not None and players_buffer_date >= dt.now(dtm.UTC) - dtm.timedelta(days=2):
@@ -330,3 +333,8 @@ def update_tmx_players():
     get_player_info(user_ids)
 
     update_players(player_data, "tmx")
+
+def copy_data_to_website():
+    files = ["tracks.json", "dedi_records.json", "tmx_records.json", "players.json", "ml_info.json"]
+    for file in files:
+        write_json(f"{WEBSITE_FILE_PATH}{file}", read_json(f"{DATA_FILE_PATH}{file}"))
