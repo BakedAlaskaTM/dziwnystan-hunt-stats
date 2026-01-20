@@ -1,6 +1,5 @@
 import functions
 
-#functions.update_recs()
-functions.update_tmx_players()
+functions.update_recs()
 
-functions.copy_data_to_website() 
+functions.copy_data_to_website()

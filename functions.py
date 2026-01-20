@@ -274,6 +274,8 @@ def update_recs(update_tmx: bool = True, update_dedi: bool = True):
             print("ERROR: TMX UPDATE FAILURE.")
         else:
             write_json(f"{DATA_FILE_PATH}tmx_records.json", merge_recs(tmx_dict, new_dict, "PlayerId"))
+        
+        update_tmx_players()
     
     if update_dedi:
         print("Updating Dedi Records:")
