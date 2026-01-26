@@ -1,4 +1,5 @@
 import functions
+functions.archive_prev_data()
 
 functions.update_recs()
 

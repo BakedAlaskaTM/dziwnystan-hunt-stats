@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 import classes
 import time
+import os
 
 FIELDS = ["TrackId", "TrackName", "UId", "AuthorTime", "UploadedAt"]
 DATA_FILE_PATH = "Data/"
@@ -340,3 +341,10 @@ def copy_data_to_website():
     files = ["tracks.json", "dedi_records.json", "tmx_records.json", "players.json", "ml_info.json"]
     for file in files:
         write_json(f"{WEBSITE_FILE_PATH}{file}", read_json(f"{DATA_FILE_PATH}{file}"))
+
+def archive_prev_data():
+    current_date = dt.strftime(dt.now(dtm.UTC), "%Y-%m-%d")
+    os.makedirs(f"Archive/{current_date}", exist_ok=True)
+    files = ["tracks.json", "dedi_records.json", "tmx_records.json", "players.json", "ml_info.json"]
+    for file in files:
+        write_json(f"Archive/{current_date}/{current_date}_{file}", read_json(f"{DATA_FILE_PATH}{file}"))
