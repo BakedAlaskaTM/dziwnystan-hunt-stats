@@ -13861,12 +13861,6 @@
             "PlayerId": "8797722",
             "Time": 10430,
             "RecordDate": "2023-07-25 00:53:37"
-        },
-        {
-            "PlayerLogin": null,
-            "PlayerId": "10688680",
-            "Time": 10530,
-            "RecordDate": "2026-01-26 19:51:20"
         }
     ],
     "10652266": [
@@ -19279,12 +19273,6 @@
         }
     ],
     "10965940": [
-        {
-            "PlayerLogin": null,
-            "PlayerId": "10771822",
-            "Time": 7140,
-            "RecordDate": "2026-01-26 15:13:54"
-        },
         {
             "PlayerLogin": null,
             "PlayerId": "9657332",
@@ -27927,12 +27915,6 @@
     "11834444": [
         {
             "PlayerLogin": null,
-            "PlayerId": "10771822",
-            "Time": 22580,
-            "RecordDate": "2026-01-26 08:57:08"
-        },
-        {
-            "PlayerLogin": null,
             "PlayerId": "10455936",
             "Time": 22640,
             "RecordDate": "2025-04-11 10:46:33"
@@ -29944,12 +29926,6 @@
     "12608945": [
         {
             "PlayerLogin": null,
-            "PlayerId": "10771822",
-            "Time": 12930,
-            "RecordDate": "2026-01-27 22:14:06"
-        },
-        {
-            "PlayerLogin": null,
             "PlayerId": "7192399",
             "Time": 13100,
             "RecordDate": "2025-05-18 16:50:14"
@@ -30087,12 +30063,6 @@
         }
     ],
     "12640401": [
-        {
-            "PlayerLogin": null,
-            "PlayerId": "10771822",
-            "Time": 15120,
-            "RecordDate": "2026-01-26 15:10:28"
-        },
         {
             "PlayerLogin": null,
             "PlayerId": "10638965",
@@ -31956,15 +31926,15 @@
     "13082069": [
         {
             "PlayerLogin": null,
-            "PlayerId": "10771822",
-            "Time": 21150,
-            "RecordDate": "2026-01-26 16:52:38"
-        },
-        {
-            "PlayerLogin": null,
             "PlayerId": "10900749",
             "Time": 21170,
             "RecordDate": "2026-01-25 11:56:21"
+        },
+        {
+            "PlayerLogin": null,
+            "PlayerId": "10771822",
+            "Time": 21250,
+            "RecordDate": "2026-01-24 23:23:58"
         }
     ],
     "13082082": [

@@ -11,6 +11,7 @@ from selenium.webdriver.firefox.options import Options
 import classes
 import time
 import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 FIELDS = ["TrackId", "TrackName", "UId", "AuthorTime", "UploadedAt"]
 DATA_FILE_PATH = "Data/"
@@ -185,6 +186,7 @@ def merge_recs(old_recs: dict, new_recs: dict, player_id_key: str):
     return old_recs
 
 def update_tmx_recs(tracks_dict: dict):
+    session = requests.Session()
     replays = []
     buffer_date, progress, replay_dict = read_buffer_file("dedi")
     if replay_dict is None:
@@ -193,20 +195,39 @@ def update_tmx_recs(tracks_dict: dict):
     if buffer_date is not None and buffer_date < dt.now(dtm.UTC) - dtm.timedelta(days=2):
         progress = 0
         replay_dict = {}
-    for id in tqdm(list(tracks_dict.keys())[progress:]):
-        response = requests.get(f"https://tmnf.exchange/api/replays?trackId={id}&fields=User.UserId%2CReplayTime%2CReplayAt")
-        content = response.json()
-        if response.status_code == 200:
-            content_dict = content["Results"]
+
+    track_ids = list(tracks_dict.keys())[progress:]
+
+    def fetch_tmx(track_id):
+        url = (
+            "https://tmnf.exchange/api/replays"
+            f"?trackId={track_id}&fields=User.UserId%2CReplayTime%2CReplayAt"
+        )
+        try:
+            r = session.get(url, timeout=10)
+            if r.status_code != 200:
+                return track_id, None
+            return track_id, r.json()["Results"]
+        except Exception:
+            return track_id, None
+
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        futures = {
+            executor.submit(fetch_tmx, track_id): track_id
+            for track_id in track_ids
+        }
+
+        for future in tqdm(as_completed(futures), total=len(futures)):
+            track_id, content_dict = future.result()
+            if content_dict == None:
+                print("ERROR: CONNECTION FAILED")
+                update_buffer_file(replay_dict, progress, "tmx")
+                return False
             replays = []
             for replay in content_dict:
                 replays.append(classes.Record({"PlayerId": str(replay['User']['UserId']), "Time": replay['ReplayTime'], "RecordDate": replay['ReplayAt'].split(".")[0]}).properties())
-            replay_dict[id] = sort_recs(replays, "PlayerId")
-        else:
-            print("ERROR: CONNECTION FAILED")
-            update_buffer_file(replay_dict, progress, "tmx")
-            return False
-        progress += 1
+            replay_dict[track_id] = sort_recs(replays, "PlayerId")
+            progress += 1
     clear_buffer_file("tmx")
     return replay_dict
 
