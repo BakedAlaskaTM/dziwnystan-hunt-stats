@@ -228,10 +228,12 @@ def update_tmx_recs(tracks_dict: dict):
                 replays.append(classes.Record({"PlayerId": str(replay['User']['UserId']), "Time": replay['ReplayTime'], "RecordDate": replay['ReplayAt'].split(".")[0]}).properties())
             replay_dict[track_id] = sort_recs(replays, "PlayerId")
             progress += 1
+    session.close()
     clear_buffer_file("tmx")
     return replay_dict
 
 def update_dedi_recs(tracks_dict: dict):
+    session = requests.Session()
     players_dict = read_json(f"{DATA_FILE_PATH}players.json")["dedi"]
     ml_logins = read_txt(f"{DATA_FILE_PATH}ml_logins.txt")
     players_buffer_date, updated_players, players_dict_buffer = read_buffer_file("players")
@@ -246,7 +248,7 @@ def update_dedi_recs(tracks_dict: dict):
         replay_dict = {}
     
     for id in tqdm(list(tracks_dict.keys())[progress:]):
-        response = requests.get(f"http://dedimania.net:8000/MAP?uid={tracks_dict[id][FIELDS[2]]}")
+        response = session.get(f"http://dedimania.net:8000/MAP?uid={tracks_dict[id][FIELDS[2]]}")
         content = response.content.decode("utf-8")
         if response.status_code == 200:
             replays = []
@@ -276,7 +278,7 @@ def update_dedi_recs(tracks_dict: dict):
             return False
         progress += 1
         time.sleep(2.5)  # To prevent overwhelming the dedi server
-
+    session.close()
     clear_buffer_file(["dedi", "players"])
     update_players(players_dict, "dedi")
     return replay_dict

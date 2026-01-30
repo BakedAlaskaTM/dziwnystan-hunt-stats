@@ -1,7 +1,7 @@
 from functions import *
 
 def get_nickname(login):
-    response = requests.get(f"https://www.xaseco.org/metastats.php?tmf={login}")
+    response = session.get(f"https://www.xaseco.org/metastats.php?tmf={login}")
     if response.status_code == 200:
         content = response.content.decode("utf-8")
         nick = re.sub(REGEX_STRING, "", content.split('<td width="35%">')[1].split("</td>")[0])
@@ -22,8 +22,12 @@ for track_replays in dedi_recs.values():
             if replay["PlayerLogin"] not in logins:
                 missing_players.append(replay["PlayerLogin"])
 
+session = requests.Session()
+
 for login in tqdm(missing_players):
     players[login] = classes.Player({"Login": login, "Nickname": get_nickname(login), "TeamML": login in ml_info.keys()}).properties()
+
+session.close()
 
 update_players(players, "dedi")
 
