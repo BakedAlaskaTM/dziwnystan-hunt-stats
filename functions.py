@@ -327,11 +327,12 @@ def update_players(player_info, source):
     return True
 
 def update_tmx_players():
+    session = requests.Session()
     tmx_records = read_json(f"{DATA_FILE_PATH}tmx_records.json")
     ml_info = read_json(f"{DATA_FILE_PATH}ml_info.json")
     ml_ids = []
-    for ids in ml_info.values():
-        ml_ids += ids
+    for player in ml_info.values():
+        ml_ids += player["TMX"]
     ml_ids = list(set(ml_ids))
     user_ids = set()
     for records in tmx_records.values():
@@ -346,7 +347,7 @@ def update_tmx_players():
         if ids == []:
             return
         joined_ids = "%2C".join(ids[:100])
-        response = requests.get(f"https://tmnf.exchange/api/users?id={joined_ids}&count=100&fields=UserId%2CName")
+        response = session.get(f"https://tmnf.exchange/api/users?id={joined_ids}&count=100&fields=UserId%2CName")
         data = response.json()
         for player in data["Results"]:
             if int(player["UserId"]) in ml_ids:
@@ -357,7 +358,7 @@ def update_tmx_players():
         get_player_info(ids[100:])
 
     get_player_info(user_ids)
-
+    session.close()
     update_players(player_data, "tmx")
 
 def copy_data_to_website():
