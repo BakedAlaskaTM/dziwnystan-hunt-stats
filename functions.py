@@ -5,9 +5,6 @@ import re
 from datetime import datetime as dt
 import datetime as dtm
 from tqdm import tqdm
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.options import Options
 import classes
 import time
 import os
