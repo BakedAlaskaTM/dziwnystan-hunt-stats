@@ -9,7 +9,7 @@ This project is a Python-based data collection tool for Trackmania Nations Forev
 ## Features
 
 - **Data Collection:** Automatically fetches track and record data from TMX and Dedimania APIs.
-- **Data Merging:** Combines data from both sources into a unified, easy-to-use dataset.
+- **Data Merging:** Combines data from both sources into a unified, easy-to-use dataset (JSON format).
 - **Nickname Formatting:** Handles and fixes Trackmania's custom nickname formatting.
 
 ## Project Structure
