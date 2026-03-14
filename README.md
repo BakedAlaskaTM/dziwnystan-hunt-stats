@@ -1,6 +1,8 @@
 # Trackmania WR Tracker
 
 I made this as a way to check my Trackmania team's progress on trying to hold every world record on maps by Dziwnystan (~1200 maps and counting). It's gone through a few stages of evolution but this is a semi-finished version (still want to add more features like tracking changes in #WRs over time, etc). Currently it's entirely for personal use so code looks a bit cursed. (0% vibe coded at the moment, will increase when I add more features)
+I also made a small website (70% vibe coded xdd) to display the data/summary stats for my team members [here](https://bakedalaskatm.github.io/). 
+Github Repo: [bakedalaskatm.github.io](https://github.com/BakedAlaskaTM/bakedalaskatm.github.io)
 
 ## Introduction
 
