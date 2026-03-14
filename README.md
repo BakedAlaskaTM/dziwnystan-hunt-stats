@@ -1,6 +1,10 @@
 # Trackmania WR Tracker
 
-This project is a Python-based data collection tool for Trackmania Nations Forever. It retrieves Trackmania World Record (WR) data from two primary databases—[TMX (Trackmania Exchange)](https://tmnf.exchange/) and [Dedimania](http://dedimania.net/tmstats/)—for a specified set of tracks. The program then merges this data into a unified dataset, which can later be used to generate summary statistics, such as the number of world records held per player, or tracking how many world records are held by the **ML** team.
+I made this as a way to check my Trackmania team's progress on trying to hold every world record on maps by Dziwnystan (~1200 maps and counting). It's gone through a few stages of evolution but this is a semi-finished version (still want to add more features like tracking changes in #WRs over time, etc). Currently it's entirely for personal use so code looks a bit cursed. (0% vibe coded at the moment, will increase when I add more features)
+
+## Introduction
+
+This project is a Python-based data collection tool for Trackmania Nations Forever. It retrieves Trackmania World Record (WR) data from two primary databases: [TMX (Trackmania Exchange)](https://tmnf.exchange/) and [Dedimania](http://dedimania.net/tmstats/), for a specified set of tracks. The program then merges this data into a unified dataset, which can later be used to generate summary statistics, such as the number of world records held per player, or tracking how many world records are held by the **ML** team.
 
 ## Features
 
