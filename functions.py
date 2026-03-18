@@ -10,8 +10,9 @@ import time
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+MAIN_PATH = os.path.dirname(os.path.abspath(__file__))
 FIELDS = ["TrackId", "TrackName", "UId", "AuthorTime", "UploadedAt"]
-DATA_FILE_PATH = "Data/"
+DATA_FILE_PATH = f"{MAIN_PATH}/Data/"
 WEBSITE_FILE_PATH = "D:/Devin stuff/Python Stuff/Website/data/"
 REGEX_STRING = '[$][a-fA-F0-9][a-fA-F0-9][a-fA-F0-9]|[$][a-zA-Z]'
 
@@ -365,7 +366,7 @@ def copy_data_to_website():
 
 def archive_prev_data():
     current_date = dt.strftime(dt.now(dtm.UTC), "%Y-%m-%d")
-    os.makedirs(f"Archive/{current_date}", exist_ok=True)
+    os.makedirs(f"{MAIN_PATH}/Archive/{current_date}", exist_ok=True)
     files = ["tracks.json", "dedi_records.json", "tmx_records.json", "players.json", "ml_info.json"]
     for file in files:
-        write_json(f"Archive/{current_date}/{current_date}_{file}", read_json(f"{DATA_FILE_PATH}{file}"))
+        write_json(f"{MAIN_PATH}/Archive/{current_date}/{current_date}_{file}", read_json(f"{DATA_FILE_PATH}{file}"))

@@ -28,8 +28,10 @@ def calculate_wr(dedi, tmx):
 
 def generate_ml_stats(wrs_dict):
     ml_stats = {}
+    total = 0
+    wr_ids = []
 
-    for wr in wrs_dict.values():
+    for trackid, wr in wrs_dict.items():
         if wr is not None:
             if wr["PlayerId"] is None:
                 if players["dedi"][wr["PlayerLogin"]]["TeamML"]:
@@ -37,16 +39,20 @@ def generate_ml_stats(wrs_dict):
                         ml_stats[wr["PlayerLogin"]] = 0
                     else:
                         ml_stats[wr["PlayerLogin"]] += 1
+                    total += 1
+                    wr_ids.append(trackid)
             else:
                 if players["tmx"][wr["PlayerId"]]["TeamML"]:
                     if ml_info_inv[wr["PlayerId"]] not in ml_stats.keys():
                         ml_stats[ml_info_inv[wr["PlayerId"]]] = 0
                     else:
                         ml_stats[ml_info_inv[wr["PlayerId"]]] += 1
-    return ml_stats
+                    total += 1
+                    wr_ids.append(trackid)
+    return [ml_stats, total, wr_ids]
 
 data_files = ["dedi_records.json", "tmx_records.json"]
-directory_path = "Archive"
+directory_path = f"{MAIN_PATH}/Archive"
 players = read_json(f"{DATA_FILE_PATH}players.json")
 tracks = read_json(f"{DATA_FILE_PATH}tracks.json")
 
@@ -63,29 +69,50 @@ folder_names = [name for name in os.listdir(directory_path)
 for i in range(len(folder_names)):
     folder_names[i] = dt.strptime(folder_names[i], "%Y-%m-%d")
 
-prev = dt.strftime(sorted(folder_names, reverse=True)[0], "%Y-%m-%d")
+folder_names.sort()
 
-wrs_gained = 0
-wrs_lost = 0
+summary_stats = {}
 
-# Analyse prev data
-prev_wrs = {}
-prev_dedi = read_json(f"{directory_path}/{prev}/{prev}_{data_files[0]}")
-prev_tmx = read_json(f"{directory_path}/{prev}/{prev}_{data_files[1]}")
-for track_id in tracks.keys():
-    prev_wrs[track_id] = calculate_wr(prev_dedi[track_id], prev_tmx[track_id])
+for i in range(1, len(folder_names)):
+    print(dt.strftime(folder_names[i], "%Y-%m-%d"))
+    prev = dt.strftime(folder_names[i-1], "%Y-%m-%d")
+    cur = dt.strftime(folder_names[i], "%Y-%m-%d")
 
-ml_stats_prev = generate_ml_stats(prev_wrs)
+    wrs_gained = 0
+    wrs_lost = 0
 
-print(ml_stats_prev)
+    # Analyse prev data
+    prev_wrs = {}
+    prev_dedi = read_json(f"{directory_path}/{prev}/{prev}_{data_files[0]}")
+    prev_tmx = read_json(f"{directory_path}/{prev}/{prev}_{data_files[1]}")
+    for track_id in tracks.keys():
+        prev_wrs[track_id] = calculate_wr(prev_dedi[track_id], prev_tmx[track_id])
 
-cur_wrs = {}
-cur_dedi = read_json(f"{DATA_FILE_PATH}{data_files[0]}")
-cur_tmx = read_json(f"{DATA_FILE_PATH}{data_files[1]}")
-for track_id in tracks.keys():
-    cur_wrs[track_id] = calculate_wr(cur_dedi[track_id], cur_tmx[track_id])
+    ml_stats_prev, total_prev, wr_ids_prev = generate_ml_stats(prev_wrs)
 
-ml_stats_cur = generate_ml_stats(cur_wrs)
+    # Analyse cur data
+    cur_wrs = {}
+    cur_dedi = read_json(f"{directory_path}/{cur}/{cur}_{data_files[0]}")
+    cur_tmx = read_json(f"{directory_path}/{cur}/{cur}_{data_files[1]}")
+    for track_id in tracks.keys():
+        cur_wrs[track_id] = calculate_wr(cur_dedi[track_id], cur_tmx[track_id])
 
-print(ml_stats_cur)
+    ml_stats_cur, total_cur, wr_ids_cur = generate_ml_stats(cur_wrs)
 
+    # Comparison
+    wrs_gained = len(set(wr_ids_cur) - set(wr_ids_prev))
+    wrs_lost = len(set(wr_ids_prev) - set(wr_ids_cur))
+    print(f"WRS Gained: {wrs_gained}")
+    print(f"WRS Lost: {wrs_lost}")
+    print(f"Total: {total_cur}")
+    print()
+
+    # Store summary stats
+    summary_stats[cur] = {
+        "WrsGained": wrs_gained,
+        "WrsLost": wrs_lost,
+        "Total": total_cur,
+        "MLStats": ml_stats_cur
+    }
+
+write_json(f"{DATA_FILE_PATH}summary_stats.json", summary_stats)
