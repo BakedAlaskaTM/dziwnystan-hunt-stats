@@ -21291,12 +21291,6 @@
             "RecordDate": "2024-01-24 05:27:21"
         },
         {
-            "PlayerLogin": "baked_alaska",
-            "PlayerId": null,
-            "Time": 15280,
-            "RecordDate": "2026-03-23 11:35:47"
-        },
-        {
             "PlayerLogin": "gerald_69",
             "PlayerId": null,
             "Time": 15550,
@@ -44095,14 +44089,7 @@
             "RecordDate": "2025-02-25 01:40:33"
         }
     ],
-    "10686037": [
-        {
-            "PlayerLogin": "baked_alaska",
-            "PlayerId": null,
-            "Time": 11170,
-            "RecordDate": "2026-03-23 00:16:59"
-        }
-    ],
+    "10686037": [],
     "10688227": [
         {
             "PlayerLogin": "narcorek",
@@ -51879,12 +51866,6 @@
             "PlayerId": null,
             "Time": 10260,
             "RecordDate": "2025-02-10 14:03:51"
-        },
-        {
-            "PlayerLogin": "baked_alaska",
-            "PlayerId": null,
-            "Time": 11260,
-            "RecordDate": "2026-03-23 12:19:21"
         },
         {
             "PlayerLogin": "thenlo_tm",
@@ -60422,12 +60403,6 @@
             "PlayerId": null,
             "Time": 14330,
             "RecordDate": "2025-02-01 14:52:08"
-        },
-        {
-            "PlayerLogin": "baked_alaska",
-            "PlayerId": null,
-            "Time": 15650,
-            "RecordDate": "2026-03-23 20:19:00"
         }
     ],
     "11071833": [
@@ -65105,12 +65080,6 @@
             "RecordDate": "2024-09-02 21:42:03"
         },
         {
-            "PlayerLogin": "baked_alaska",
-            "PlayerId": null,
-            "Time": 15770,
-            "RecordDate": "2026-03-23 19:39:23"
-        },
-        {
             "PlayerLogin": "dziwnystan",
             "PlayerId": null,
             "Time": 16000,
@@ -68572,12 +68541,6 @@
             "RecordDate": "2025-05-31 11:11:13"
         },
         {
-            "PlayerLogin": "baked_alaska",
-            "PlayerId": null,
-            "Time": 17380,
-            "RecordDate": "2026-03-23 12:36:02"
-        },
-        {
             "PlayerLogin": "dziwnystan",
             "PlayerId": null,
             "Time": 17570,
@@ -71377,12 +71340,6 @@
             "RecordDate": "2024-04-09 13:14:19"
         },
         {
-            "PlayerLogin": "baked_alaska",
-            "PlayerId": null,
-            "Time": 12200,
-            "RecordDate": "2026-03-23 11:32:53"
-        },
-        {
             "PlayerLogin": "rizzorplays",
             "PlayerId": null,
             "Time": 13660,
@@ -73041,14 +72998,7 @@
             "RecordDate": "2025-02-13 18:12:46"
         }
     ],
-    "11411606": [
-        {
-            "PlayerLogin": "baked_alaska",
-            "PlayerId": null,
-            "Time": 13870,
-            "RecordDate": "2026-03-23 14:38:40"
-        }
-    ],
+    "11411606": [],
     "11411609": [
         {
             "PlayerLogin": "pieplay08",
@@ -84575,14 +84525,7 @@
             "RecordDate": "2025-05-12 14:54:39"
         }
     ],
-    "12588326": [
-        {
-            "PlayerLogin": "baked_alaska",
-            "PlayerId": null,
-            "Time": 14870,
-            "RecordDate": "2026-03-23 20:14:50"
-        }
-    ],
+    "12588326": [],
     "12590113": [],
     "12590287": [
         {
@@ -89739,12 +89682,6 @@
             "RecordDate": "2026-03-18 23:26:08"
         },
         {
-            "PlayerLogin": "alipin",
-            "PlayerId": null,
-            "Time": 12720,
-            "RecordDate": "2026-03-23 06:34:26"
-        },
-        {
             "PlayerLogin": "adulu2",
             "PlayerId": null,
             "Time": 13970,
@@ -89887,12 +89824,6 @@
             "PlayerId": null,
             "Time": 18350,
             "RecordDate": "2026-03-15 12:36:39"
-        },
-        {
-            "PlayerLogin": "ventrx10",
-            "PlayerId": null,
-            "Time": 22170,
-            "RecordDate": "2026-03-23 06:34:26"
         },
         {
             "PlayerLogin": "s0nity",
@@ -90733,12 +90664,6 @@
             "RecordDate": "2026-01-14 16:09:33"
         },
         {
-            "PlayerLogin": "baked_alaska",
-            "PlayerId": null,
-            "Time": 10970,
-            "RecordDate": "2026-03-23 19:51:13"
-        },
-        {
             "PlayerLogin": "rizzorplays",
             "PlayerId": null,
             "Time": 11510,
@@ -90758,12 +90683,6 @@
         }
     ],
     "12982593": [
-        {
-            "PlayerLogin": "baked_alaska",
-            "PlayerId": null,
-            "Time": 13680,
-            "RecordDate": "2026-03-23 11:44:24"
-        },
         {
             "PlayerLogin": "redgreendevil",
             "PlayerId": null,
@@ -90793,6 +90712,12 @@
             "PlayerId": null,
             "Time": 21690,
             "RecordDate": "2025-11-16 09:54:42"
+        },
+        {
+            "PlayerLogin": "baked_alaska",
+            "PlayerId": null,
+            "Time": 22110,
+            "RecordDate": "2026-01-08 12:33:35"
         }
     ],
     "12982859": [
