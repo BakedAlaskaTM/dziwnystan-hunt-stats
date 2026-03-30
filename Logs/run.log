@@ -43,3 +43,9 @@ Traceback (most recent call last):
             ~~~~^^^^^^^^^^
 KeyError: 'tmx'
 2026-03-29 22:02:01,122 [INFO] Script finished
+2026-03-30 22:00:01,576 [INFO] Script started
+2026-03-30 22:00:01,588 [INFO] Python executable: C:\Users\devin\AppData\Local\Programs\Python\Python312\python.exe
+2026-03-30 22:00:01,588 [INFO] Working directory: C:\Windows\System32
+2026-03-30 22:00:01,588 [INFO] Script location: D:\Devin stuff\Python Stuff\Better TM Testing\TM-Testing-2\main.py
+2026-03-30 22:00:01,588 [INFO] Process ID: 6672
+2026-03-30 22:59:24,306 [INFO] Script finished
