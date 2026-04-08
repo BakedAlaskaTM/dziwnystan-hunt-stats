@@ -49,3 +49,9 @@ KeyError: 'tmx'
 2026-03-30 22:00:01,588 [INFO] Script location: D:\Devin stuff\Python Stuff\Better TM Testing\TM-Testing-2\main.py
 2026-03-30 22:00:01,588 [INFO] Process ID: 6672
 2026-03-30 22:59:24,306 [INFO] Script finished
+2026-04-08 22:00:01,179 [INFO] Script started
+2026-04-08 22:00:01,191 [INFO] Python executable: C:\Users\devin\AppData\Local\Programs\Python\Python312\python.exe
+2026-04-08 22:00:01,191 [INFO] Working directory: C:\Windows\System32
+2026-04-08 22:00:01,191 [INFO] Script location: D:\Devin stuff\Python Stuff\Better TM Testing\TM-Testing-2\main.py
+2026-04-08 22:00:01,191 [INFO] Process ID: 15680
+2026-04-08 22:59:43,172 [INFO] Script finished
