@@ -10,3 +10,48 @@
 2026-03-22 22:00:01,231 [INFO] Script location: D:\Devin stuff\Python Stuff\Better TM Testing\TM-Testing-2\main.py
 2026-03-22 22:00:01,231 [INFO] Process ID: 15640
 2026-03-22 22:59:38,701 [INFO] Script finished
+2026-03-23 22:00:01,741 [INFO] Script started
+2026-03-23 22:00:01,741 [INFO] Python executable: C:\Users\devin\AppData\Local\Programs\Python\Python312\python.exe
+2026-03-23 22:00:01,741 [INFO] Working directory: C:\Windows\System32
+2026-03-23 22:00:01,741 [INFO] Script location: D:\Devin stuff\Python Stuff\Better TM Testing\TM-Testing-2\main.py
+2026-03-23 22:00:01,741 [INFO] Process ID: 22224
+2026-03-23 22:59:31,223 [INFO] Script finished
+2026-03-25 22:00:01,536 [INFO] Script started
+2026-03-25 22:00:01,547 [INFO] Python executable: C:\Users\devin\AppData\Local\Programs\Python\Python312\python.exe
+2026-03-25 22:00:01,547 [INFO] Working directory: C:\Windows\System32
+2026-03-25 22:00:01,548 [INFO] Script location: D:\Devin stuff\Python Stuff\Better TM Testing\TM-Testing-2\main.py
+2026-03-25 22:00:01,548 [INFO] Process ID: 30768
+2026-03-25 22:59:38,097 [INFO] Script finished
+2026-03-29 22:00:01,898 [INFO] Script started
+2026-03-29 22:00:01,908 [INFO] Python executable: C:\Users\devin\AppData\Local\Programs\Python\Python312\python.exe
+2026-03-29 22:00:01,908 [INFO] Working directory: C:\Windows\System32
+2026-03-29 22:00:01,908 [INFO] Script location: D:\Devin stuff\Python Stuff\Better TM Testing\TM-Testing-2\main.py
+2026-03-29 22:00:01,908 [INFO] Process ID: 18856
+2026-03-29 22:02:01,104 [ERROR] Script crashed
+Traceback (most recent call last):
+  File "D:\Devin stuff\Python Stuff\Better TM Testing\TM-Testing-2\main.py", line 26, in <module>
+    main()
+  File "D:\Devin stuff\Python Stuff\Better TM Testing\TM-Testing-2\main.py", line 15, in main
+    functions.update_recs()
+  File "D:\Devin stuff\Python Stuff\Better TM Testing\TM-Testing-2\functions.py", line 293, in update_recs
+    new_dict = update_tmx_recs(tracks_dict)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Devin stuff\Python Stuff\Better TM Testing\TM-Testing-2\functions.py", line 222, in update_tmx_recs
+    update_buffer_file(replay_dict, progress, "tmx")
+  File "D:\Devin stuff\Python Stuff\Better TM Testing\TM-Testing-2\functions.py", line 113, in update_buffer_file
+    "Data": data[data_for]
+            ~~~~^^^^^^^^^^
+KeyError: 'tmx'
+2026-03-29 22:02:01,122 [INFO] Script finished
+2026-03-30 22:00:01,576 [INFO] Script started
+2026-03-30 22:00:01,588 [INFO] Python executable: C:\Users\devin\AppData\Local\Programs\Python\Python312\python.exe
+2026-03-30 22:00:01,588 [INFO] Working directory: C:\Windows\System32
+2026-03-30 22:00:01,588 [INFO] Script location: D:\Devin stuff\Python Stuff\Better TM Testing\TM-Testing-2\main.py
+2026-03-30 22:00:01,588 [INFO] Process ID: 6672
+2026-03-30 22:59:24,306 [INFO] Script finished
+2026-04-08 22:00:01,179 [INFO] Script started
+2026-04-08 22:00:01,191 [INFO] Python executable: C:\Users\devin\AppData\Local\Programs\Python\Python312\python.exe
+2026-04-08 22:00:01,191 [INFO] Working directory: C:\Windows\System32
+2026-04-08 22:00:01,191 [INFO] Script location: D:\Devin stuff\Python Stuff\Better TM Testing\TM-Testing-2\main.py
+2026-04-08 22:00:01,191 [INFO] Process ID: 15680
+2026-04-08 22:59:43,172 [INFO] Script finished

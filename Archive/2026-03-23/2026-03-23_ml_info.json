@@ -230,12 +230,8 @@
     },
     "hexlimit": {
         "Login": "usaontop2",
-        "TMX": [  
+        "TMX": [
             8857890
         ]
-    },
-    "nxt_nino": {
-        "Login": "nxt_nino",
-        "TMX": []
     }
 }
