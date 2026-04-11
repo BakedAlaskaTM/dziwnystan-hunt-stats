@@ -74,7 +74,6 @@ folder_names.sort()
 summary_stats = {}
 
 for i in range(1, len(folder_names)):
-    print(dt.strftime(folder_names[i], "%Y-%m-%d"))
     prev = dt.strftime(folder_names[i-1], "%Y-%m-%d")
     cur = dt.strftime(folder_names[i], "%Y-%m-%d")
 
@@ -100,19 +99,28 @@ for i in range(1, len(folder_names)):
     ml_stats_cur, total_cur, wr_ids_cur = generate_ml_stats(cur_wrs)
 
     # Comparison
-    wrs_gained = len(set(wr_ids_cur) - set(wr_ids_prev))
-    wrs_lost = len(set(wr_ids_prev) - set(wr_ids_cur))
-    print(f"WRS Gained: {wrs_gained}")
-    print(f"WRS Lost: {wrs_lost}")
-    print(f"Total: {total_cur}")
-    print()
+    wrs_gained = list(set(wr_ids_cur) - set(wr_ids_prev))
+    wrs_lost = list(set(wr_ids_prev) - set(wr_ids_cur))
 
     # Store summary stats
     summary_stats[cur] = {
-        "WrsGained": wrs_gained,
-        "WrsLost": wrs_lost,
+        "WrsGained": [len(wrs_gained), wrs_gained],
+        "WrsLost": [len(wrs_lost), wrs_lost],
         "Total": total_cur,
         "MLStats": ml_stats_cur
     }
 
-write_json(f"{DATA_FILE_PATH}summary_stats.json", summary_stats)
+for key, value in summary_stats.items():
+    dedi = read_json(f"{directory_path}/{key}/{key}_{data_files[0]}")
+    tmx = read_json(f"{directory_path}/{key}/{key}_{data_files[1]}")
+    print(key)
+    print(f"{summary_stats[key]["WrsLost"][0]} WRs Lost:")
+    for id in summary_stats[key]["WrsLost"][1]:
+        print(f"{id}: {calculate_wr(dedi[id], tmx[id])}")
+    print(f"{summary_stats[key]["WrsGained"][0]} WRs Gained:")
+    for id in summary_stats[key]["WrsGained"][1]:
+        print(f"{id}: {calculate_wr(dedi[id], tmx[id])}")
+    print()
+    print()
+
+#write_json(f"{DATA_FILE_PATH}summary_stats.json", summary_stats)

@@ -1,3 +1,4 @@
+from dotenv import load_dotenv, dotenv_values
 import csv
 import json
 import requests
@@ -10,10 +11,12 @@ import time
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+load_dotenv()
+
 MAIN_PATH = os.path.dirname(os.path.abspath(__file__))
 FIELDS = ["TrackId", "TrackName", "UId", "AuthorTime", "UploadedAt"]
 DATA_FILE_PATH = f"{MAIN_PATH}/Data/"
-WEBSITE_FILE_PATH = "D:/Devin stuff/Python Stuff/Website/data/"
+WEBSITE_FILE_PATH = os.getenv("WEBSITE_DIR_PATH")
 REGEX_STRING = '[$][a-fA-F0-9][a-fA-F0-9][a-fA-F0-9]|[$][a-zA-Z]'
 
 def read_txt(filename: str):
